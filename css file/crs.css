@@ -1,0 +1,32 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  /* header style */
+  #Header .mobile-menu ul li {
+    list-style: none;
+    padding: 0 0 20px 20px;
+  }
+  /* Hero banner style */
+  #HeroBanner .hero-content h1 {
+    font-size: 28px;
+  }
+  #HeroBanner .hero-content p {
+    font-size: 20px;
+  }
+  #HeroBanner .hero-content a {
+    font-size: 18px;
+  }
+  #Header .site-logo-wrap {
+    padding: 23px 0;
+  }
+  #Header .site-logo-wrap .logo img {
+    width: 55px;
+  }
+  #Header.header-fixed .site-logo-wrap .logo img {
+    width: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}
