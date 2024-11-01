@@ -4,8 +4,9 @@ const AboutMe = () => {
       <h2 className="text-3xl text-[#18ffc9] font-semibold mb-4">About Me</h2>
       <p className="text-base font-normal  leading-8 mb-10">
         I am currently a Software Engineer in the healthcare sector. I have
-        recently graduated with a Bachelor&apos;s of Science in Computer
-        Science. My primary technologies I have been working with are:
+        recently graduated with a First-Class Honours in Bachelor&apos;s of
+        Science in Computer Science. My primary technologies I have been working
+        with are:
       </p>
       <ul className="flex flex-wrap justify-between">
         <li className="flex items-center mb-2">
