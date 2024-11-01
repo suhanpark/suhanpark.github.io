@@ -1,4 +1,4 @@
-# My Portfolio
+# gabidesign.uk (v1)
 
 Welcome to my portfolio project built with [Next.js](https://nextjs.org) and TypeScript! This project showcases my skills and experience as a software engineer, highlighting key projects and technologies I have worked with.
 
