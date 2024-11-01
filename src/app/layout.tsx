@@ -23,8 +23,9 @@ export const metadata: Metadata = {
     "Gabi",
     "portfolio",
     "software engineering",
-    "projects",
-    "developer",
+    "Next.js developer",
+    "React developer",
+    "web development",
   ],
   robots: {
     index: true,
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gabi&apos;s Portfolio",
     description:
-      "Discover Gabi&apos;s work and contributions in software development.",
+      "Discover Gabi's projects in software engineering, specializing in modern web development with Next.js.",
     url: "https://gabidesign.uk",
     siteName: "Gabi&apos;s Portfolio",
 
