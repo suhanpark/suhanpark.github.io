@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
@@ -6,7 +5,7 @@ export default function Home() {
       <Navbar />
       {/* Header Section */}
       <header className="flex flex-col items-center text-center gap-4 mb-16">
-        <h1 className="text-3xl font-bold my-10 mb-0">Hello, I'm Gabi</h1>
+        <h1 className="text-3xl font-bold my-10 mb-0">Hello, I&apos;m Gabi</h1>
         <p className="text-lg font-light">
           A passionate web developer focused on creating elegant solutions
         </p>
