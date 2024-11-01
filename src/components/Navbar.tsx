@@ -47,15 +47,15 @@ const Navbar = () => {
           >
             <FaGithub className="text-xl" />
           </a>
-          <a
-            href="https://linkedin.com/in/gabrielle-c-5137542b2"
+          {/* <a
+            href="https://linkedin.com/in/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
             className="text-[#f5f5f5] transition duration-300 hover:text-[#00d8ff]"
           >
             <FaLinkedin className="text-xl" />
-          </a>
+          </a> */}
           {/* <a
             href="https://twitter.com/yourusername"
             target="_blank"
