@@ -15,7 +15,7 @@ export default function Home() {
         <p className="text-base">
           I architect sophisticated digital solutions that enhance quality and
           accessibility, embodying a commitment to transformative technological
-          innovation.
+          innovation in healthcare.
         </p>
       </section>
 
