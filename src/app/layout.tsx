@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gabi&apos;s Portfolio",
     description:
-      "Discover Gabi's projects in software engineering, specializing in modern web development with Next.js.",
+      "Discover Gabi&apos;s projects in software engineering, specializing in modern web development with Next.js.",
     url: "https://gabidesign.uk",
     siteName: "Gabi&apos;s Portfolio",
 
