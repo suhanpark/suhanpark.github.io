@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className=" top-0 left-0 right-0 p-4   z-10">
+    <nav className=" top-0 left-0 right-0 p-4 mt-6  z-10">
       <div className="container mx-auto  flex justify-between w-[90%] lg:w-[60rem]   items-center">
         <ul className="flex space-x-8 hidden md:flex">
           <li>
