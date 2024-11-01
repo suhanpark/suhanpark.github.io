@@ -1,7 +1,9 @@
 const Projects = () => {
   return (
     <section className="w-full max-w-2xl mt-40">
-      <h2 className="text-3xl font-semibold mb-4 text-[#18ffc9]">Projects</h2>
+      <h2 className="text-3xl font-semibold mb-4 text-[#0c3f33] dark:text-[#18ffc9]">
+        Projects
+      </h2>
       <p className="text-base font-normal leading-8 mb-6">
         My journey as a Software Engineer has been filled with challenges and
         triumphs in the healthcare domain. Here are some of the key projects

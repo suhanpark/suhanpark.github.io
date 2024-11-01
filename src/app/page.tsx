@@ -13,7 +13,7 @@ export default function Home() {
         {/* About Section */}
         <section className="w-full min-h-screen md:min-h-[80rem] max-w-2xl justify-center content-center ">
           <header className="flex flex-col items-center  text-center gap-4 mb-7">
-            <h1 className="text-5xl text-[#64FFDA] md:text-6xl font-bold  ">
+            <h1 className="text-5xl text-[#0c3f33]  dark:text-[#64FFDA] md:text-6xl font-bold  ">
               Hello, I&apos;m Gabi
             </h1>
             <h1 className="text-xl md:text-2xl font-bold  ">
@@ -29,7 +29,7 @@ export default function Home() {
             reshapes the boundaries of human knowledge.
           </p>
           <div className="mx-auto text-center mt-10 justify-center ">
-            <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#64FFDA] font-bold border-[#18ffc9]">
+            <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#0c3f33] dark:text-[#64FFDA] font-bold border-[#0c3f33] dark:border-[#18ffc9]">
               <FaEnvelope className="mr-2" />{" "}
               {/* Add margin to the right of the icon */}
               <h1 className="font-extrabold">Contact</h1>
