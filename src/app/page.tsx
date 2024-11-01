@@ -77,7 +77,7 @@ export default function Home() {
           your.email@example.com
         </a>
       </section> */}
-      Footer
+
       <footer className="mt-20 text-sm text-gray-600 dark:text-gray-400">
         © 2024 made by Gabi. All rights reserved.
       </footer>

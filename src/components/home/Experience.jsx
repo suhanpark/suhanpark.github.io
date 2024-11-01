@@ -72,9 +72,11 @@ const Experience = () => {
         <div className="flex items-start border-l-4  border-[#18ffc9] pl-4 bg-[#0f141e]  p-4 transition-all duration-300 ">
           <div className="bg-[#18ffc9] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg text-[#18ffc9]">McDonald's</h3>
+            <h3 className="font-semibold text-lg text-[#18ffc9]">
+              McDonald&apos;s
+            </h3>
             <p className="text-base leading-6 text-[#18ffc9]">
-              Team Member @ McDonald's
+              Team Member @ McDonald&apos;s
             </p>
             <p className="text-sm text-gray-300">2017 - 2019</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
