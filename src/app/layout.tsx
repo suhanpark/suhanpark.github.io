@@ -14,9 +14,32 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+// Enhanced metadata for SEO
 export const metadata: Metadata = {
-  title: "Gabi",
-  description: "Gabi's Portfolio",
+  title: "Gabi&apos;s Portfolio",
+  description:
+    "Explore Gabi&apos;s projects and skills in software engineering.",
+  keywords: [
+    "Gabi",
+    "portfolio",
+    "software engineering",
+    "projects",
+    "developer",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "Gabi&apos;s Portfolio",
+    description:
+      "Discover Gabi&apos;s work and contributions in software development.",
+    url: "https://gabidesign.uk",
+    siteName: "Gabi&apos;s Portfolio",
+
+    locale: "en_UK",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
