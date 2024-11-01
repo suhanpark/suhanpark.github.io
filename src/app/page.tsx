@@ -6,9 +6,7 @@ export default function Home() {
       {/* Header Section */}
       <header className="flex flex-col items-center text-center gap-4 mb-16">
         <h1 className="text-3xl font-bold my-10 mb-0">Hello, I&apos;m Gabi</h1>
-        <p className="text-lg font-light">
-          A passionate web developer focused on creating elegant solutions
-        </p>
+        <p className="text-lg font-light">Software Engineer</p>
       </header>
 
       {/* About Section */}
