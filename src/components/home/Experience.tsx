@@ -19,7 +19,7 @@ const Experience = () => {
               Graduate Systems Analyst @ NHS
             </p>
             <p className="text-sm text-gray-300">2024 - Present</p>
-            <ul className="list-disc list-inside mt-2 text-gray-300">
+            <ul className="list-disc list-inside mt-2 dark:text-gray-300">
               <li>
                 Developing and maintaining complex applications across health
                 organizations.
@@ -44,7 +44,7 @@ const Experience = () => {
               Trainee Systems Analyst @ NHS
             </p>
             <p className="text-sm text-gray-300">2019 - 2024</p>
-            <ul className="list-disc list-inside mt-2 text-gray-300">
+            <ul className="list-disc list-inside mt-2 dark:text-gray-300">
               <li>Assisted in developing and supporting NHS applications.</li>
               <li>
                 Collaborated with senior developers to learn system architecture
@@ -66,7 +66,7 @@ const Experience = () => {
               Bartender @ DEPOT
             </p>
             <p className="text-sm text-gray-300">2023 - 2024</p>
-            <ul className="list-disc list-inside mt-2 text-gray-300">
+            <ul className="list-disc list-inside mt-2 dark:text-gray-300">
               <li>Bartended at huge events & festivals.</li>
             </ul>
           </div>
@@ -82,7 +82,7 @@ const Experience = () => {
               Team Member @ McDonald&apos;s
             </p>
             <p className="text-sm text-gray-300">2017 - 2019</p>
-            <ul className="list-disc list-inside mt-2 text-gray-300">
+            <ul className="list-disc list-inside mt-2 dark:text-gray-300">
               <li>Served customers in a fast-paced environment.</li>
             </ul>
           </div>
@@ -98,7 +98,7 @@ const Experience = () => {
               Waitress @ Whitchurch Golf Club
             </p>
             <p className="text-sm text-gray-300">2016 - 2017</p>
-            <ul className="list-disc list-inside mt-2 text-gray-300">
+            <ul className="list-disc list-inside mt-2 dark:text-gray-300">
               <li>
                 Providing excellent customer service while providing food,
                 beverages and cleaning.
