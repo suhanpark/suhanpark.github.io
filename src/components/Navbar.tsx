@@ -1,7 +1,7 @@
 // components/Navbar.tsx
 
 import Link from "next/link";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
