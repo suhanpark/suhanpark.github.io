@@ -18,11 +18,10 @@ const Experience = () => {
             <ul className="list-disc list-inside mt-2 text-gray-300">
               <li>
                 Developing and maintaining complex applications across health
-                organizations in Wales.
+                organizations.
               </li>
               <li>
-                Focusing on business intelligence solutions for finance staff in
-                NHS Wales.
+                Focusing on business intelligence solutions for finance staff.
               </li>
               <li>
                 Also working on automations, Microsoft Power Apps, Qlik Sense,

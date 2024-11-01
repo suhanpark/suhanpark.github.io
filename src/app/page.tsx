@@ -22,11 +22,11 @@ export default function Home() {
           </header>
           <p className="text-base font-normal text-center leading-8">
             I&apos;m a software engineer based in the United Kingdom
-            specializing in healthcare applications. My role is to deliver &
-            maintain substantial and highly complex applications across all
-            Wales. I am captivated by the latest advancements in scientific
-            inquiry, closely following pioneering research that reshapes the
-            boundaries of human knowledge.
+            specializing in healthcare applications. My goal is to deliver &
+            maintain substantial and highly complex applications for all health
+            organizations. I am captivated by the latest advancements in
+            scientific inquiry, closely following pioneering research that
+            reshapes the boundaries of human knowledge.
           </p>
           <div className="mx-auto text-center mt-10 justify-center ">
             <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#64FFDA] font-bold border-[#18ffc9]">

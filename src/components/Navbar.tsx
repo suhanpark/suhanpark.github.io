@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <div className="flex space-x-4 text-center md:mx-0 mx-auto">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/delimaci"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -48,7 +48,7 @@ const Navbar = () => {
             <FaGithub className="text-xl" />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/gabrielle-c-5137542b2"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -56,7 +56,7 @@ const Navbar = () => {
           >
             <FaLinkedin className="text-xl" />
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/yourusername"
             target="_blank"
             rel="noopener noreferrer"
@@ -64,7 +64,7 @@ const Navbar = () => {
             className="text-[#f5f5f5] transition duration-300 hover:text-[#ff61a6]"
           >
             <FaTwitter className="text-xl" />
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>
