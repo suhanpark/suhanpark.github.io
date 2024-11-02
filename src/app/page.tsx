@@ -7,6 +7,10 @@ import { FaEnvelope } from "react-icons/fa";
 export default function Home() {
   return (
     <>
+      <meta
+        name="google-site-verification"
+        content="vGIrbnxgP14aKX74bPNwJvPzoUm1Uk_YeZo1WnMSgxI"
+      />
       <Navbar />
       <div className=" flex flex-col items-center p-8 sm:p-20   text-gray-100">
         {/* Header Section */}
