@@ -10,7 +10,7 @@ const Navbar = () => {
         <ul className="flex space-x-8 hidden md:flex">
           <li>
             <Link
-              href="#about"
+              href="#"
               className="relative inline-block text-[#18ffe8] transition duration-300 group hover:text-[#00d8ff]"
             >
               <p className="text-[1.3rem] font-bold mb-2">Gabi</p>
@@ -19,20 +19,30 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="#projects"
+              href="#about"
               className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#2abfff]"
             >
-              Projects
+              About
               <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#00d8ff] to-[#00ffe5] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
           <li>
             <Link
-              href="#contact"
-              className="relative mt-[0.3rem]  inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#45f9ff]"
+              href="#experience"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#2abfff]"
             >
-              Contact
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#4ca8ff] to-[#00ffee] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              Experience
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#00d8ff] to-[#00ffe5] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="#projects"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#2abfff]"
+            >
+              Projects
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#00d8ff] to-[#00ffe5] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
         </ul>

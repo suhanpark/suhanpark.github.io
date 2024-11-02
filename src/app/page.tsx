@@ -37,13 +37,13 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <section className="mt-32">
+        <section id="about" className="mt-32">
           <AboutMe />
         </section>
-        <section className="mt-0 md:mt-0">
+        <section id="experience" className="mt-0 md:mt-0">
           <Experience />
         </section>
-        <section className="mt-0 md:mt-0">
+        <section id="projects" className="mt-0 md:mt-0">
           <Projects />
         </section>
         {/* Projects Section */}
