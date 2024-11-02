@@ -21,10 +21,9 @@ export default function Home() {
             </h1>
           </header>
           <p className="text-base font-normal text-center leading-8">
-            I&apos;m a software engineer based in the United Kingdom
-            specializing in healthcare applications. My goal is to deliver &
-            maintain substantial and highly complex applications for all health
-            organizations. I am captivated by the latest advancements in
+            I&apos;m a software engineer based in the United Kingdom with a
+            passion for developing and maintaining high-impact, complex
+            applications. I am captivated by the latest advancements in
             scientific inquiry, closely following pioneering research that
             reshapes the boundaries of human knowledge.
           </p>
