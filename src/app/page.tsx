@@ -28,12 +28,14 @@ export default function Home() {
             scientific inquiry, closely following pioneering research that
             reshapes the boundaries of human knowledge.
           </p>
-          <div className="mx-auto text-center mt-10 justify-center ">
-            <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#64FFDA] font-bold border-[#18ffc9]">
-              <FaEnvelope className="mr-2" />{" "}
-              {/* Add margin to the right of the icon */}
-              <h1 className="font-extrabold">Contact</h1>
-            </button>
+          <div className="mx-auto text-center mt-10 justify-center">
+            <a href="mailto:gabidev.contact@gmail.com">
+              <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#64FFDA] font-bold border-[#18ffc9]">
+                <FaEnvelope className="mr-2" />{" "}
+                {/* Add margin to the right of the icon */}
+                <h1 className="font-extrabold">Contact</h1>
+              </button>
+            </a>
           </div>
         </section>
         <section className="mt-32">
