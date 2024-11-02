@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #071428;
+  --background: #071428;
+  --foreground: #ededed;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: light) {
   :root {
-    --background: #071428;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #071428;
   }
-}
+} */
 
 body {
   line-height: 2.2rem;
