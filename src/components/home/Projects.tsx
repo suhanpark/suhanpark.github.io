@@ -9,7 +9,7 @@ const Projects = () => {
       </p>
       <div className="space-y-4">
         <div className="flex items-start border-l-2 border-[#18ffc9] pl-4">
-          <div className="bg-[#18ffc9] h-2 w-2 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#18ffc9] h-2 w-[1.3rem] md:w-[0.6rem] rounded-full mt-1 mr-2"></div>
           <div>
             <h3 className="font-semibold text-lg">Dashboard Development</h3>
             <p className="text-base leading-6">
@@ -19,7 +19,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#18ffc9] pl-4">
-          <div className="bg-[#18ffc9] h-2 w-2 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#18ffc9] h-2 w-[2rem] md:w-4 rounded-full mt-1 mr-2"></div>
           <div>
             <h3 className="font-semibold text-lg">Automations</h3>
             <p className="text-base leading-6">
@@ -30,7 +30,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#18ffc9] pl-4">
-          <div className="bg-[#18ffc9] h-2 w-2 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#18ffc9] h-2 w-[0.8rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div>
             <h3 className="font-semibold text-lg">Innovative AI Solutions</h3>
             <p className="text-base leading-6">
@@ -39,7 +39,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#18ffc9] pl-4">
-          <div className="bg-[#18ffc9] h-2 w-2 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#18ffc9] h-2 w-[1.5rem] md:w-[0.7rem] rounded-full mt-1 mr-2"></div>
           <div>
             <h3 className="font-semibold text-lg">Collaborative Projects</h3>
             <p className="text-base leading-6">
@@ -49,7 +49,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#18ffc9] pl-4">
-          <div className="bg-[#18ffc9] h-2 w-8 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#18ffc9] h-2 w-[5rem] md:w-9 rounded-full mt-1 mr-2"></div>
           <div>
             <h3 className="font-semibold text-lg">Personal Projects</h3>
             <p className="text-base leading-6">

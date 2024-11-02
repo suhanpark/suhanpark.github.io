@@ -8,7 +8,7 @@ const AboutMe = () => {
         Science in Computer Science. My primary technologies I have been working
         with are:
       </p>
-      <ul className="flex flex-wrap justify-between">
+      <ul className="flex flex-wrap gap-2 md:justify-between">
         <li className="flex items-center mb-2">
           <span className="text-red-500 mr-2">➔</span> Python
         </li>

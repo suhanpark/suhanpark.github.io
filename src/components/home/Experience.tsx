@@ -7,8 +7,8 @@ const Experience = () => {
       </p>
       <div className="space-y-0">
         {/* Combined Section for Trainee and Graduate */}
-        <div className="flex items-start border-l-4 border-[#1865ff] pl-4 bg-[#0f141e] rounded-t-lg p-4 transition-all duration-300">
-          <div className="bg-[#18ffc9] h-2 w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4 border-[#1865ff] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
+          <div className="bg-[#18ffc9] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg text-[#18ffc9]">NHS</h3>
             <p className="text-base leading-6 text-[#18ffc9]">
@@ -32,8 +32,8 @@ const Experience = () => {
         </div>
 
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4 border-[#1865ff] pl-4 bg-[#0f141e]  p-4 transition-all duration-300 mt-4">
-          <div className="bg-[#18ffc9] h-2 w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4 border-[#1865ff] pl-4 bg-none  p-4 transition-all duration-300 mt-4">
+          <div className="bg-[#18ffc9] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg text-[#18ffc9]">NHS</h3>
             <p className="text-base leading-6 text-[#18ffc9]">
@@ -54,8 +54,8 @@ const Experience = () => {
         </div>
 
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#18ffc9] pl-4 bg-[#0f141e]  p-4 transition-all duration-300 ">
-          <div className="bg-[#18ffc9] h-2 w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#18ffc9] pl-4 bg-none  p-4 transition-all duration-300 ">
+          <div className="bg-[#18ffc9] h-2 w-[0.6rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg text-[#18ffc9]">DEPOT</h3>
             <p className="text-base leading-6 text-[#18ffc9]">
@@ -68,8 +68,8 @@ const Experience = () => {
           </div>
         </div>
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#18ffc9] pl-4 bg-[#0f141e] p-4 transition-all duration-300 ">
-          <div className="bg-[#18ffc9] h-2 w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#18ffc9] pl-4 bg-none p-4 transition-all duration-300 ">
+          <div className="bg-[#18ffc9] h-2 w-[0.8rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg text-[#18ffc9]">
               McDonald&apos;s
@@ -84,8 +84,8 @@ const Experience = () => {
           </div>
         </div>
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#18ffc9] pl-4 bg-[#0f141e] rounded-b-lg p-4 transition-all duration-300 ">
-          <div className="bg-[#18ffc9] h-2 w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#18ffc9] pl-4 bg-none rounded-b-lg p-4 transition-all duration-300 ">
+          <div className="bg-[#18ffc9] h-2 w-[1.3rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg text-[#18ffc9]">
               Whitchurch Golf Club
