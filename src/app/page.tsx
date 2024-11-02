@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen flex flex-col items-center p-8 sm:p-20  text-gray-800 dark:text-gray-100">
+      <div className=" flex flex-col items-center p-8 sm:p-20  text-gray-800 dark:text-gray-100">
         {/* Header Section */}
         {/* About Section */}
-        <section className="w-full min-h-screen md:min-h-[80rem] max-w-2xl justify-center content-center ">
+        <section className="w-full  3xl:min-h-[80rem] max-w-2xl justify-center content-center ">
           <header className="flex flex-col items-center  text-center gap-4 mb-7">
             <h1 className="text-5xl text-[#0c3f33]  dark:text-[#64FFDA] md:text-6xl font-bold  ">
               Hello, I&apos;m Gabi
@@ -36,7 +36,7 @@ export default function Home() {
             </button>
           </div>
         </section>
-        <section className="mt-0 md:mt-0">
+        <section className="mt-32">
           <AboutMe />
         </section>
         <section className="mt-0 md:mt-0">
