@@ -16,9 +16,8 @@ const geistMono = localFont({
 
 // Enhanced metadata for SEO
 export const metadata: Metadata = {
-  title: "Gabi&apos;s Portfolio",
-  description:
-    "Explore Gabi&apos;s projects and skills in software engineering.",
+  title: "Gabi's Portfolio",
+  description: "Explore Gabi's projects and skills in software engineering.",
   keywords: [
     "Gabi",
     "portfolio",
