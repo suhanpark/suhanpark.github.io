@@ -17,7 +17,7 @@ export default function Home() {
         {/* About Section */}
         <section className="w-full  3xl:min-h-[80rem] max-w-2xl justify-center content-center ">
           <header className="flex flex-col items-center  text-center gap-4 mb-7">
-            <h1 className="text-5xl text-[#64FFDA] md:text-6xl font-bold  ">
+            <h1 className="text-5xl text-white md:text-6xl font-bold  ">
               Hello, I&apos;m Gabi
             </h1>
             <h1 className="text-xl md:text-2xl font-bold  ">

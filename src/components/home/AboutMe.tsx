@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <section className="w-full max-w-2xl ">
-      <h2 className="text-3xl text-[#18ffc9] font-semibold mb-4">About Me</h2>
+      <h2 className="text-3xl text-white font-semibold mb-4">About Me</h2>
       <p className="text-base font-normal  leading-8 mb-10">
         I am currently a Software Engineer in the healthcare sector. I have
         recently graduated with a First-Class Honours in Bachelor&apos;s of

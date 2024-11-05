@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <section className="w-full max-w-2xl mt-40">
-      <h2 className="text-3xl font-semibold mb-4 text-[#18ffc9]">Experience</h2>
+      <h2 className="text-3xl font-semibold mb-4 text-white">Experience</h2>
       <p className="text-base font-normal leading-8 mb-6">
         I am currently a software engineer at the NHS 🏥
       </p>
