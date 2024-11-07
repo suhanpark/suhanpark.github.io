@@ -84,9 +84,7 @@ const Experience = () => {
           <div className="bg-[#18ffc9] h-2 w-[1.3rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">Whitchurch Golf Club</h3>
-            <p className="text-base leading-6 ">
-              Waitress @ Whitchurch Golf Club
-            </p>
+            <p className="text-base leading-6 ">Waitress @ Golf Club</p>
             <p className="text-sm text-gray-300">2016 - 2017</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
               <li>
