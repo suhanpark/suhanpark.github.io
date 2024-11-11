@@ -3,17 +3,15 @@ const Experience = () => {
     <section className="w-full max-w-2xl mt-40">
       <h2 className="text-3xl font-semibold mb-4 text-white">Experience</h2>
       <p className="text-base font-normal leading-8 mb-6">
-        I am currently a software engineer at the NHS 🏥
+        I am currently a software engineer in healthcare 🏥
       </p>
       <div className="space-y-0">
         {/* Combined Section for Trainee and Graduate */}
         <div className="flex items-start border-l-4 border-[#1865ff] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
           <div className="bg-[#18ffc9] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg ">NHS</h3>
-            <p className="text-base leading-6 ">
-              Graduate Systems Analyst @ NHS
-            </p>
+            <h3 className="font-semibold text-lg ">Healthcare</h3>
+            <p className="text-base leading-6 ">Graduate Systems Analyst</p>
             <p className="text-sm text-gray-300">2024 - Present</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
               <li>
@@ -35,13 +33,11 @@ const Experience = () => {
         <div className="flex items-start border-l-4 border-[#1865ff] pl-4 bg-none  p-4 transition-all duration-300 mt-4">
           <div className="bg-[#18ffc9] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg ">NHS</h3>
-            <p className="text-base leading-6 ">
-              Trainee Systems Analyst @ NHS
-            </p>
+            <h3 className="font-semibold text-lg ">Healthcare</h3>
+            <p className="text-base leading-6 ">Trainee Systems Analyst</p>
             <p className="text-sm text-gray-300">2019 - 2024</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
-              <li>Assisted in developing and supporting NHS applications.</li>
+              <li>Assisted in developing and supporting applications.</li>
               <li>
                 Collaborated with senior developers to learn system architecture
                 and coding.
