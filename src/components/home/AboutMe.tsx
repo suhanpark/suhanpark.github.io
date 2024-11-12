@@ -10,22 +10,22 @@ const AboutMe = () => {
       </p>
       <ul className="flex flex-wrap gap-2 md:justify-between">
         <li className="flex items-center mb-2">
-          <span className="text-red-500 mr-2">➔</span> Python
+          <span className="text-[#ED9FBE] mr-2">➔</span> Python
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-orange-500 mr-2">➔</span> Kotlin
+          <span className="text-[#9F86C1] mr-2">➔</span> Kotlin
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-yellow-500 mr-2">➔</span> C#
+          <span className="text-[#ED9FBE] mr-2">➔</span> C#
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-green-500 mr-2">➔</span> TypeScript
+          <span className="text-[#9F86C1] mr-2">➔</span> TypeScript
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-blue-500 mr-2">➔</span> JavaScript
+          <span className="text-[#ED9FBE] mr-2">➔</span> JavaScript
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-purple-500 mr-2">➔</span> NextJS
+          <span className="text-[#9F86C1] mr-2">➔</span> NextJS
         </li>
       </ul>
       <p className="text-base font-normal  leading-8 mt-4">

@@ -7,8 +7,8 @@ const Experience = () => {
       </p>
       <div className="space-y-0">
         {/* Combined Section for Trainee and Graduate */}
-        <div className="flex items-start border-l-4 border-[#1865ff] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
-          <div className="bg-[#18ffc9] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4 border-[#ED9FBE] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
+          <div className="bg-[#ED9FBE] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">Healthcare</h3>
             <p className="text-base leading-6 ">Graduate Systems Analyst</p>
@@ -30,8 +30,8 @@ const Experience = () => {
         </div>
 
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4 border-[#1865ff] pl-4 bg-none  p-4 transition-all duration-300 mt-4">
-          <div className="bg-[#18ffc9] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4 border-[#ED9FBE] pl-4 bg-none  p-4 transition-all duration-300 mt-4">
+          <div className="bg-[#ED9FBE] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">Healthcare</h3>
             <p className="text-base leading-6 ">Trainee Systems Analyst</p>
@@ -50,8 +50,8 @@ const Experience = () => {
         </div>
 
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#18ffc9] pl-4 bg-none  p-4 transition-all duration-300 ">
-          <div className="bg-[#18ffc9] h-2 w-[0.6rem] md:w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#9F86C1] pl-4 bg-none  p-4 transition-all duration-300 ">
+          <div className="bg-[#9F86C1] h-2 w-[0.6rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">DEPOT</h3>
             <p className="text-base leading-6 ">Bartender @ DEPOT</p>
@@ -62,8 +62,8 @@ const Experience = () => {
           </div>
         </div>
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#18ffc9] pl-4 bg-none p-4 transition-all duration-300 ">
-          <div className="bg-[#18ffc9] h-2 w-[0.8rem] md:w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#9F86C1] pl-4 bg-none p-4 transition-all duration-300 ">
+          <div className="bg-[#9F86C1] h-2 w-[0.8rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">McDonald&apos;s</h3>
             <p className="text-base leading-6 ">
@@ -76,8 +76,8 @@ const Experience = () => {
           </div>
         </div>
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#18ffc9] pl-4 bg-none rounded-b-lg p-4 transition-all duration-300 ">
-          <div className="bg-[#18ffc9] h-2 w-[1.3rem] md:w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#9F86C1] pl-4 bg-none rounded-b-lg p-4 transition-all duration-300 ">
+          <div className="bg-[#9F86C1] h-2 w-[1.3rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">Golf Club</h3>
             <p className="text-base leading-6 ">Waitress @ Golf Club</p>

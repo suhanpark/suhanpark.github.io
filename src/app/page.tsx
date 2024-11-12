@@ -35,7 +35,7 @@ export default function Home() {
 ⠀⠀⠀⠀⠉⠁⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀
   `}
             </pre>
-            <h1 className="text-xl md:text-2xl mt-10 font-bold  ">
+            <h1 className="text-xl  md:text-2xl mt-10 font-bold  ">
               I like building things
             </h1>
           </header>
@@ -49,7 +49,7 @@ export default function Home() {
 
           <div className="mx-auto text-center mt-10 justify-center">
             <a href="mailto:gabidev.contact@gmail.com">
-              <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#64FFDA] font-bold border-[#18ffc9]">
+              <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ED9FBE] font-bold border-[#ED9FBE]">
                 <FaEnvelope className="mr-2" />{" "}
                 {/* Add margin to the right of the icon */}
                 <h1 className="font-extrabold">Contact</h1>

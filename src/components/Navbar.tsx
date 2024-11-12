@@ -11,38 +11,38 @@ const Navbar = () => {
           <li>
             <Link
               href="#"
-              className="relative inline-block text-[#18ffe8] transition duration-300 group hover:text-[#00d8ff]"
+              className="relative inline-block text-[#ED9FBE] transition duration-300 group hover:text-[#ED9FBE]"
             >
               <p className="text-[1.3rem] font-bold mb-2">Gabi</p>
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#18ffe8] to-[#00d8ff] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#ED9FBE] to-[#ED9FBE] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#about"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#2abfff]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#ED9FBE]"
             >
               About
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#00d8ff] to-[#00ffe5] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#ED9FBE] to-[#ED9FBE] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#experience"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#2abfff]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#ED9FBE]"
             >
               Experience
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#00d8ff] to-[#00ffe5] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#ED9FBE] to-[#ED9FBE] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
 
           <li>
             <Link
               href="#projects"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#2abfff]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#ED9FBE]"
             >
               Projects
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#00d8ff] to-[#00ffe5] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#ED9FBE] to-[#ED9FBE] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
         </ul>
@@ -53,7 +53,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="text-[#f5f5f5] transition duration-300 hover:text-[#9dff00]"
+            className="text-[#f5f5f5] transition duration-300 hover:text-[#ED9FBE]"
           >
             <FaGithub className="text-xl" />
           </a>
