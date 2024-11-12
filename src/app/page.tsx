@@ -36,7 +36,7 @@ export default function Home() {
   `}
             </pre>
             <h1 className="text-xl md:text-2xl mt-10 font-bold  ">
-              I enjoy creating applications
+              I like building things
             </h1>
           </header>
           <p className="text-base font-normal text-center leading-8">
