@@ -16,28 +16,28 @@ const geistMono = localFont({
 
 // Enhanced metadata for SEO
 export const metadata: Metadata = {
-  title: "Gabi's Portfolio",
-  description: "Explore Gabi's projects and skills in software engineering.",
+  title: "Suhan's Website",
+  description: "Explore Suhan's portfolio.",
   keywords: [
-    "Gabi",
+    "Suhan",
     "portfolio",
     "software engineering",
-    "Next.js developer",
-    "React developer",
-    "web development",
+    "research",
+    "deep learning",
+    "computer vision",
   ],
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: "Gabi&apos;s Portfolio",
+    title: "Suhan&apos;s Website",
     description:
-      "Discover Gabi&apos;s projects in software engineering, specializing in modern web development with Next.js.",
-    url: "https://gabidesign.uk",
-    siteName: "Gabi&apos;s Portfolio",
+      "Discover Suhan&apos;s projects in software engineering, specializing in Deep Learning and Computer Vision.",
+    url: "https://www.suhanpark.com",
+    siteName: "Suhan&apos;s Website",
 
-    locale: "en_UK",
+    locale: "en_US",
     type: "website",
   },
 };

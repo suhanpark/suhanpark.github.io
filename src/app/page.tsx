@@ -1,11 +1,15 @@
+"use client";
 import Navbar from "@/components/Navbar";
 import AboutMe from "@/components/home/AboutMe";
 import Projects from "@/components/home/Projects";
 import Experience from "@/components/home/Experience";
 import { FaEnvelope } from "react-icons/fa";
+import React, { useState } from 'react';
+
 
 export default function Home() {
-  return (
+  const [isHovering, setIsHovering] = useState(false);
+    return (
     <>
       <meta
         name="google-site-verification"
@@ -17,40 +21,41 @@ export default function Home() {
         {/* About Section */}
         <section className="w-full  3xl:min-h-[80rem] max-w-2xl justify-center content-center ">
           <header className="flex flex-col items-center  text-center gap-4 mb-7">
-            <h1 className="text-5xl text-white md:text-6xl font-bold  ">
-              Hello, I&apos;m Gabi
-            </h1>
+          <h1 
+            className="text-5xl text-white md:text-6xl font-bold transition-all duration-1000 ease-in-out"
+            onMouseEnter={() => setIsHovering(true)}
+            onMouseLeave={() => setIsHovering(false)}
+          >
+            {isHovering ? "Connect with me!" : "Hello, I'm Suhan"}
+          </h1>
             <pre className="text-lg mx-auto text-center font-mono whitespace-pre-wrap mt-6 wave-animation">
               {`
-⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⢰⣿⡿⠗⠀⠠⠄⡀⠀⠀⠀⠀
-⠀⠀⠀⠀⡜⢁⣀⡀⠀⠀⠀⠈⠑⢶⣶⡄
-⢀⣶⣦⣸⠈⢿⣟⡇⠀⠀⣀⣀⠀⠘⡿⠃
-⠀⢿⣿⣿⣄⠒⠀⠠⢶⡂⢫⣿⢇⢀⠃⠀
-⠀⠈⢿⡿⣿⣿⣶⣤⣀⣄⣀⣂⡠⠊⠀⠀
-⠀⠀⠀⡇⠀⠀⠉⠙⠛⠿⣿⣿⣧⠀⠀⠀
-⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠘⣿⣿⡇⠀⠀
-⠀⠀⠀⣿⣧⡤⠄⣀⣀⣀⣴⡟⠿⠃⠀⠀
-⠀⠀⠀⢻⣿⣿⠉⠉⢹⣿⣿⠁⠀⠀⠀⠀
-⠀⠀⠀⠀⠉⠁⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠊⠈⠑⣄⠀⠀⠀⡰⠋⠀⠙⢆⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡰⠃⠀⠀⠀⠸⣶⣶⣶⡇⠀⠀⠀⠈⢦⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠒⠒⡶⠣⢤⠀⠀⣀⣀⠉⠉⡄⠀⢀⣶⣦⠀⠈⢷⠉⣉⡉⠀
+⠀⠀⠀⠀⠠⠖⣾⡃⠒⠚⠀⠀⠻⠟⠀⠦⠷⠖⠀⠙⠉⠀⠀⠈⣏⠀⠉⠀
+⠀⠀⠀⠀⢀⣾⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠀
+⠀⠀⠀⢀⣞⠛⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⡀⠀
+⠀⠀⢠⣿⣿⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⠀
+⠀⢀⠿⠿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡀
+⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇
   `}
             </pre>
 
             <h1 className="text-xl  md:text-2xl mt-10 font-bold  ">
-              I like building things
+            Transforming Ideas into Reality.
             </h1>
           </header>
           <p className="text-base font-normal text-center leading-8">
-            I&apos;m a software engineer based in the United Kingdom with a
-            passion for developing and maintaining high-impact, complex
-            applications. I am captivated by the latest advancements in
-            scientific inquiry, closely following pioneering research that
-            reshapes the boundaries of human knowledge.
+            I&apos;m a aspiring deep learning researcher and autonomous machine perception engineer.
+            I am passionate about machine learning, deep learning, and computer vision,
+            actively keeping up with innovative research and advancements that expands my knowledge.
           </p>
 
           <div className="mx-auto text-center mt-10 justify-center">
-            <a href="mailto:gabidev.contact@gmail.com">
-              <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ED9FBE] font-bold border-[#ED9FBE]">
+            <a href="mailto:simon7233@gmail.com">
+              <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ffffff] font-bold border-[#ffffff] transition duration-300 hover:text-[#7ED4AD] hover:border-[#7ED4AD]">
                 <FaEnvelope className="mr-2" />{" "}
                 {/* Add margin to the right of the icon */}
                 <h1 className="font-extrabold">Contact</h1>
@@ -102,7 +107,7 @@ export default function Home() {
       </section> */}
 
         <footer className="mt-20 text-sm text-gray-400">
-          © 2024 made by Gabi. All rights reserved.
+          © 2024 Modified by Suhan. All rights reserved.
         </footer>
       </div>
     </>

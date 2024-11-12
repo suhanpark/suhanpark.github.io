@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -11,61 +12,61 @@ const Navbar = () => {
           <li>
             <Link
               href="#"
-              className="relative inline-block text-[#ED9FBE] transition duration-300 group hover:text-[#ED9FBE]"
+              className="relative inline-block text-[#7ED4AD] transition duration-300 group hover:text-[#7ED4AD]"
             >
-              <p className="text-[1.3rem] font-bold mb-2">Gabi</p>
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#ED9FBE] to-[#ED9FBE] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <p className="text-[1.3rem] font-bold mb-2">Suhan</p>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#7ED4AD] to-[#7ED4AD] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#about"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#ED9FBE]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#7ED4AD]"
             >
               About
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#ED9FBE] to-[#ED9FBE] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#7ED4AD] to-[#7ED4AD] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#experience"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#ED9FBE]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#7ED4AD]"
             >
               Experience
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#ED9FBE] to-[#ED9FBE] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#7ED4AD] to-[#7ED4AD] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
 
           <li>
             <Link
               href="#projects"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#ED9FBE]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#7ED4AD]"
             >
               Projects
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#ED9FBE] to-[#ED9FBE] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#7ED4AD] to-[#7ED4AD] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
         </ul>
 
         <div className="flex space-x-4 text-center md:mx-0 mx-auto">
           <a
-            href="https://github.com/delimaci"
+            href="https://github.com/suhanpark"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="text-[#f5f5f5] transition duration-300 hover:text-[#ED9FBE]"
+            className="text-[#f5f5f5] transition duration-300 hover:text-[#7ED4AD]"
           >
             <FaGithub className="text-xl" />
           </a>
-          {/* <a
-            href="https://linkedin.com/in/"
+          <a
+            href="https://linkedin.com/in/suhanpark01"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="text-[#f5f5f5] transition duration-300 hover:text-[#00d8ff]"
+            className="text-[#f5f5f5] transition duration-300 hover:text-[#7ED4AD]"
           >
             <FaLinkedin className="text-xl" />
-          </a> */}
+          </a>
           {/* <a
             href="https://twitter.com/yourusername"
             target="_blank"
