@@ -20,7 +20,7 @@ export default function Home() {
             <h1 className="text-5xl text-white md:text-6xl font-bold  ">
               Hello, I&apos;m Gabi
             </h1>
-            <pre className="text-lg mx-auto text-center font-mono whitespace-pre-wrap mt-6">
+            <pre className="text-lg mx-auto text-center font-mono whitespace-pre-wrap mt-6 wave-animation">
               {`
 ⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⢰⣿⡿⠗⠀⠠⠄⡀⠀⠀⠀⠀
@@ -35,6 +35,7 @@ export default function Home() {
 ⠀⠀⠀⠀⠉⠁⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀
   `}
             </pre>
+
             <h1 className="text-xl  md:text-2xl mt-10 font-bold  ">
               I like building things
             </h1>
