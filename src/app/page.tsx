@@ -20,7 +20,22 @@ export default function Home() {
             <h1 className="text-5xl text-white md:text-6xl font-bold  ">
               Hello, I&apos;m Gabi
             </h1>
-            <h1 className="text-xl md:text-2xl font-bold  ">
+            <pre className="text-lg mx-auto text-center font-mono whitespace-pre-wrap mt-6">
+              {`
+⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢰⣿⡿⠗⠀⠠⠄⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⡜⢁⣀⡀⠀⠀⠀⠈⠑⢶⣶⡄
+⢀⣶⣦⣸⠈⢿⣟⡇⠀⠀⣀⣀⠀⠘⡿⠃
+⠀⢿⣿⣿⣄⠒⠀⠠⢶⡂⢫⣿⢇⢀⠃⠀
+⠀⠈⢿⡿⣿⣿⣶⣤⣀⣄⣀⣂⡠⠊⠀⠀
+⠀⠀⠀⡇⠀⠀⠉⠙⠛⠿⣿⣿⣧⠀⠀⠀
+⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠘⣿⣿⡇⠀⠀
+⠀⠀⠀⣿⣧⡤⠄⣀⣀⣀⣴⡟⠿⠃⠀⠀
+⠀⠀⠀⢻⣿⣿⠉⠉⢹⣿⣿⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⠉⠁⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀
+  `}
+            </pre>
+            <h1 className="text-xl md:text-2xl mt-10 font-bold  ">
               I enjoy creating applications
             </h1>
           </header>
@@ -31,6 +46,7 @@ export default function Home() {
             scientific inquiry, closely following pioneering research that
             reshapes the boundaries of human knowledge.
           </p>
+
           <div className="mx-auto text-center mt-10 justify-center">
             <a href="mailto:gabidev.contact@gmail.com">
               <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#64FFDA] font-bold border-[#18ffc9]">
