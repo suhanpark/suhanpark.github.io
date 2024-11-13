@@ -82,7 +82,7 @@ const Experience = () => {
                     Data Structures
                   </li> 
                   <li>
-                    If-statement &amp; Loops
+                    If-statement and Loops
                   </li>
                   <li>
                     Files and Exceptions
