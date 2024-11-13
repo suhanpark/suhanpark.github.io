@@ -68,7 +68,7 @@ export default function Home() {
         <section className="w-full  3xl:min-h-[80rem] max-w-2xl justify-center content-center ">
           <header className="flex flex-col items-center  text-center gap-4 mb-7">
           <h1 className="text-5xl text-white md:text-6xl font-bold break-words w-full">
-          Hello, I'm
+          Hello, I&apos;m
           <br/>
           <TypingEffect words={['Suhan Park','Computer Vision Engineer', 'Deep Learning Researcher', 'Robotics Enthusiast', 'Autonomous Vehicle Zealot', 'Philantropist', 'Innovator', 'Software Engineer']} typingSpeed={120} blinkSpeed={500} />
 
