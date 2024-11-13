@@ -70,7 +70,7 @@ export default function Home() {
           Hello, I&apos;m
           </h1>
           <h1>
-          <TypingEffect words={['Suhan','an Engineer', 'a Researcher', 'an AI Zealot', 'a Roboticist', 'a Philantropist', 'an Innovator']} typingSpeed={120} blinkSpeed={500} />
+          <TypingEffect words={['Suhan','an Engineer', 'a Researcher', 'an AI Zealot', 'a Roboticist', 'a Philantropist', 'an Innovator']} typingSpeed={150} blinkSpeed={600} />
           </h1>
           <br/>
             {/* <h1 className="text-xl  md:text-2xl mt-10 font-bold  ">
