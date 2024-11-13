@@ -4,8 +4,54 @@ import AboutMe from "@/components/home/AboutMe";
 import Projects from "@/components/home/Projects";
 import Experience from "@/components/home/Experience";
 import { FaEnvelope, FaFilePdf } from "react-icons/fa";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
+const TypingEffect = ({ words, typingSpeed, blinkSpeed }) => {
+  const [currentText, setCurrentText] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [showCursor, setShowCursor] = useState(true);
+
+  useEffect(() => {
+    let typingTimeout: NodeJS.Timeout;
+    let blinkInterval: NodeJS.Timeout;
+
+    const typeNextCharacter = () => {
+      setCurrentText((prevText) => prevText + words[currentIndex].charAt(prevText.length));
+
+      if (currentText.length === words[currentIndex].length) {
+        // Pause briefly before moving to the next word
+        setTimeout(() => {
+          setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length); // Cycle through words
+          setCurrentText(''); // Reset for the next word
+        }, 1700); // Adjust pause duration (in milliseconds) as needed
+      } else {
+        typingTimeout = setTimeout(typeNextCharacter, typingSpeed);
+      }
+    };
+
+    if (currentIndex < words.length) {
+      typingTimeout = setTimeout(typeNextCharacter, typingSpeed);
+    }
+
+    // Cursor blinking effect
+    blinkInterval = setInterval(() => {
+      setShowCursor((prevShowCursor) => !prevShowCursor);
+    }, blinkSpeed);
+
+    // Cleanup
+    return () => {
+      clearTimeout(typingTimeout);
+      clearInterval(blinkInterval);
+    };
+  }, [currentText, currentIndex, typingSpeed, blinkSpeed, words]);
+
+  return (
+    <span className="text-5xl md:text-6xl font-bold"> {/* Apply heading styles */}
+      {currentText}
+      {showCursor && <span className="blinking-cursor" style={{ color: '#C2FFC7' }}>|</span>}
+    </span>
+  );
+};
 
 export default function Home() {
   const [isHovering, setIsHovering] = useState(false);
@@ -16,33 +62,18 @@ export default function Home() {
         content="vGIrbnxgP14aKX74bPNwJvPzoUm1Uk_YeZo1WnMSgxI"
       />
       <Navbar />
-      <div className=" flex flex-col items-center p-8 sm:p-20   text-gray-100">
+      <div className=" flex flex-col items-center p-8 sm:p-20 text-gray-100">
         {/* Header Section */}
         {/* About Section */}
         <section className="w-full  3xl:min-h-[80rem] max-w-2xl justify-center content-center ">
           <header className="flex flex-col items-center  text-center gap-4 mb-7">
-          <h1 
-            className="text-5xl text-white md:text-6xl font-bold transition-all duration-500 ease-in-out"
-            onMouseEnter={() => setIsHovering(true)} 
-            onMouseLeave={() => setIsHovering(false)} 
-          >
-            {isHovering ? <span style={{ color: '#C2FFC7' }}>Let&apos;s Connect!</span> : "Hello, I'm Suhan"}
-          </h1>
-            <pre className="text-lg mx-auto text-center font-mono whitespace-pre-wrap mt-6 wave-animation">
-              {`
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠊⠈⠑⣄⠀⠀⠀⡰⠋⠀⠙⢆⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⡰⠃⠀⠀⠀⠸⣶⣶⣶⡇⠀⠀⠀⠈⢦⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠒⠒⡶⠣⢤⠀⠀⣀⣀⠉⠉⡄⠀⢀⣶⣦⠀⠈⢷⠉⣉⡉⠀
-⠀⠀⠀⠀⠠⠖⣾⡃⠒⠚⠀⠀⠻⠟⠀⠦⠷⠖⠀⠙⠉⠀⠀⠈⣏⠀⠉⠀
-⠀⠀⠀⠀⢀⣾⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠀
-⠀⠀⠀⢀⣞⠛⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⡀⠀
-⠀⠀⢠⣿⣿⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⠀
-⠀⢀⠿⠿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡀
-⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇
-  `}
-            </pre>
+          <h1 className="text-5xl text-white md:text-6xl font-bold break-words w-full">
+          Hello, I'm
+          <br/>
+          <TypingEffect words={['Suhan Park','Computer Vision Engineer', 'Deep Learning Researcher', 'Robotics Enthusiast', 'Autonomous Vehicle Zealot', 'Philantropist', 'Innovator', 'Software Engineer']} typingSpeed={120} blinkSpeed={500} />
 
+          </h1>
+            
             <h1 className="text-xl  md:text-2xl mt-10 font-bold  ">
             Transforming Ideas into Reality.
             </h1>
