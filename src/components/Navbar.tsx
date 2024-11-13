@@ -10,7 +10,7 @@ const Navbar = () => {
           <li>
             <Link
               href="#"
-              className="relative inline-block text-[#C2FFC7] transition duration-300 group hover:text-[#C2FFC7]"
+              className="relative inline-block text-[#C2FFC7] text-2xl transition duration-300 group hover:text-[#C2FFC7] text-2xl"
             >
               <p className="text-[1.3rem] font-bold mb-2">Suhan</p>
               <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#C2FFC7] to-[#C2FFC7] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
@@ -19,26 +19,26 @@ const Navbar = () => {
           <li>
             <Link
               href="#about"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#C2FFC7]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] text-xl transition duration-300 group hover:text-[#C2FFC7] text-xl"
             >
               About
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#C2FFC7] to-[#C2FFC7] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#C2FFC7] to-[#C2FFC7] scale-x-0 text-xl transition-transform duration-300 origin-left group-hover:scale-x-100 text-xl"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#experience"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#C2FFC7]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] text-xl transition duration-300 group hover:text-[#C2FFC7] text-xl"
             >
               Experience
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#C2FFC7] to-[#C2FFC7] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#C2FFC7] to-[#C2FFC7] scale-x-0 text-xl transition-transform duration-300 origin-left group-hover:scale-x-100 text-xl"></span>
             </Link>
           </li>
 
           <li>
             <Link
               href="#projects"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#C2FFC7]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] text-xl transition duration-300 group hover:text-[#C2FFC7] text-xl"
             >
               Projects
               <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#C2FFC7] to-[#C2FFC7] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>

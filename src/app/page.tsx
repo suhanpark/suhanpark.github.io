@@ -13,7 +13,7 @@ const TypingEffect = ({ words, typingSpeed, blinkSpeed }) => {
 
   useEffect(() => {
     let typingTimeout: NodeJS.Timeout;
-    const blinkInterval: NodeJS.Timeout;
+    let blinkInterval: NodeJS.Timeout;
 
     const typeNextCharacter = () => {
       setCurrentText((prevText) => prevText + words[currentIndex].charAt(prevText.length));
@@ -68,8 +68,7 @@ export default function Home() {
           <header className="flex flex-col items-center  text-center gap-4 mb-7">
           <h1 className="text-5xl text-white md:text-6xl font-bold break-words w-full">
           Hello, I&apos;m
-          <br/>
-          <TypingEffect words={['Suhan Park','Computer Vision Engineer', 'Deep Learning Researcher', 'Robotics Enthusiast', 'Autonomous Vehicle Zealot', 'Philantropist', 'Innovator', 'Software Engineer']} typingSpeed={120} blinkSpeed={500} />
+          <TypingEffect words={['Suhan','an Engineer', 'a Researcher', 'an AI Zealot', 'a Roboticist', 'a Philantropist', 'an Innovator']} typingSpeed={120} blinkSpeed={500} />
 
           </h1>
             
@@ -78,11 +77,9 @@ export default function Home() {
             </h1>
           </header>
           <p className="text-base font-normal text-center leading-8">
-            I&apos;m an aspiring deep learning researcher and autonomous machine perception engineer.
-            I am passionate about machine learning, deep learning, and computer vision,
-            actively keeping up with innovative research and advancements that expands my knowledge.
+            I am passionate about machine learning, deep learning, computer vision, foundation models, 
+            and autonomous vehicle/robot and perception, actively keeping up with innovative research and advancements that expands my knowledge.
           </p>
-
           <div className="mx-auto text-center mt-10 justify-center flex"> 
             <a href="mailto:simon7233@gmail.com">
               <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ffffff] font-bold border-[#ffffff] transition duration-300 hover:text-[#7ED4AD] hover:border-[#7ED4AD]">

@@ -26,6 +26,12 @@ export const metadata: Metadata = {
     "research",
     "deep learning",
     "computer vision",
+    "machine learning",
+    "autonomous vehicles",
+    "robotics",
+    "artificial intelligence",
+    "perception",
+    "foundation model"
   ],
   robots: {
     index: true,
