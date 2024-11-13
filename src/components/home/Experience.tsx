@@ -7,13 +7,17 @@ const Experience = () => {
       </p>
       <div className="space-y-0">
         {/* Combined Section for Trainee and Graduate */}
-        <div className="flex items-start border-l-4 border-[#0B2F9F] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
-          <div className="bg-[#0B2F9F] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4 border-[#83B4FF] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
+          <div className="bg-[#83B4FF] h-2 w-5 md:w-2.5 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">BMW Group</h3>
             <p className="text-base leading-6 ">Innovation and Research Intern</p>
             <p className="text-sm text-gray-300">Jan. 2024 - Dec.2024</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
+            <em className="italic">
+              Python, PyTorch, CUDA, AWS EC2, AWS S3, OpenCV, ONNX, FastAPI, Pandas, Matplotlib
+            </em>
+            <br/>
               <li>
               Created custom vehicle dataset to develop 2D vehicle recognition model for AR.
               </li>
@@ -41,6 +45,10 @@ const Experience = () => {
             <p className="text-base leading-6 ">Research Assistant</p>
             <p className="text-sm text-gray-300">Jan. 2023 - Dec. 2023</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
+            <em className="italic">
+              Python, Pytorch, Pandas, NumPy, Matplotlib, CUDA
+            </em>
+            <br/>
               <li>Conducted a research project advised by <a href="https://www.egr.msu.edu/~yukong/team/" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">Dr. Yu Kong</a>.
                 <ul className="list-disc list-inside ml-6"> 
                   <li>
@@ -69,12 +77,16 @@ const Experience = () => {
           </div>
         </div>
         <div className="flex items-start border-l-4 border-[#15B392] pl-4 bg-none  p-4 transition-all duration-300 mt-4">
-          <div className="bg-[#15B392] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#15B392] h-2 w-2.5 md:w-2.5 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg "><a href="https://www.cse.msu.edu/~cse231/" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">CSE 231</a> @ MSU</h3>
             <p className="text-base leading-6 ">Teaching Assistant</p>
             <p className="text-sm text-gray-300">Aug. 2022 - Dec. 2023</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
+            <em className="italic">
+              Python, Pycharm, Visual Studio Code, Presentation Skills, Public Speaking, Teaching
+            </em>
+            <br/>
               <li>
                 Conducted weekly labs &amp; lectures guiding 50 students in Python.
                 <ul className="list-disc list-inside ml-6">
@@ -106,12 +118,16 @@ const Experience = () => {
         </div>
         {/* Promotion Visual Indicator */}
         <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none  p-4 transition-all duration-300 ">
-          <div className="bg-[#8B5DFF] h-2 w-[0.6rem] md:w-2 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#8B5DFF] h-2 w-[0.6rem] md:w-2.5 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">Engineering Society of Detroit</h3>
             <p className="text-base leading-6 ">Math and Computer Science Instructor</p>
             <p className="text-sm text-gray-300">Jun. 2022 - Aug. 2022</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
+            <em className="italic">
+              Python, OpenCV, DJI API, DJI Tello Drone, Teaching, Presentation Skills, Public Speaking
+            </em>
+            <br/>
               <li>Developed &amp; taught curriculums in Algebra I/II and Computer Science/Drone Mechanics.</li>
               <li>Created educational materials and activities based on Michigan Education Standards.</li>
             </ul>
@@ -119,7 +135,7 @@ const Experience = () => {
         </div>
         {/* Promotion Visual Indicator */}
         <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none p-4 transition-all duration-300 ">
-          <div className="bg-[#8B5DFF] h-2 w-[0.8rem] md:w-2 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#8B5DFF] h-2 w-[1rem] md:w-2.5 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">Tech For Good Inc.</h3>
             <p className="text-base leading-6 ">
@@ -127,6 +143,10 @@ const Experience = () => {
             </p>
             <p className="text-sm text-gray-300">Jun. 2021 - Aug. 2021</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
+            <em className="italic">
+              Python, Firebase Firestore, FastAPI, Team Management, Project Management, Budget Management
+            </em>
+            <br/>
               <li>Worked on weapon detection alerting system.</li>
               <li>Developed database update automation module with Azure SQL database.</li>
               <li>Developed an authentication module for the authorities and building managements.</li>
@@ -144,6 +164,10 @@ const Experience = () => {
             <p className="text-base leading-6 ">Python Research Intern</p>
             <p className="text-sm text-gray-300">May. 2021 - Aug. 2021</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
+            <em className="italic">
+              Python
+            </em>
+            <br/>
               <li>
               Collaborated to create a web of Python nodes.
               </li>

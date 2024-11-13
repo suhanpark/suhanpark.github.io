@@ -12,38 +12,38 @@ const Navbar = () => {
           <li>
             <Link
               href="#"
-              className="relative inline-block text-[#7ED4AD] transition duration-300 group hover:text-[#7ED4AD]"
+              className="relative inline-block text-[#C2FFC7] transition duration-300 group hover:text-[#C2FFC7]"
             >
               <p className="text-[1.3rem] font-bold mb-2">Suhan</p>
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#7ED4AD] to-[#7ED4AD] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#C2FFC7] to-[#C2FFC7] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#about"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#7ED4AD]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#C2FFC7]"
             >
               About
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#7ED4AD] to-[#7ED4AD] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#C2FFC7] to-[#C2FFC7] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
           <li>
             <Link
               href="#experience"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#7ED4AD]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#C2FFC7]"
             >
               Experience
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#7ED4AD] to-[#7ED4AD] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#C2FFC7] to-[#C2FFC7] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
 
           <li>
             <Link
               href="#projects"
-              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#7ED4AD]"
+              className="relative mt-[0.3rem] inline-block text-[#f5f5f5] transition duration-300 group hover:text-[#C2FFC7]"
             >
               Projects
-              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#7ED4AD] to-[#7ED4AD] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-[1px] bg-gradient-to-r from-[#C2FFC7] to-[#C2FFC7] scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
             </Link>
           </li>
         </ul>
@@ -54,7 +54,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="text-[#f5f5f5] transition duration-300 hover:text-[#7ED4AD]"
+            className="text-[#f5f5f5] transition duration-300 hover:text-[#C2FFC7]"
           >
             <FaGithub className="text-xl" />
           </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="text-[#f5f5f5] transition duration-300 hover:text-[#7ED4AD]"
+            className="text-[#f5f5f5] transition duration-300 hover:text-[#C2FFC7]"
           >
             <FaLinkedin className="text-xl" />
           </a>

@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import AboutMe from "@/components/home/AboutMe";
 import Projects from "@/components/home/Projects";
 import Experience from "@/components/home/Experience";
-import { FaEnvelope } from "react-icons/fa";
+import { FaEnvelope, FaFilePdf } from "react-icons/fa";
 import React, { useState } from 'react';
 
 
@@ -22,11 +22,11 @@ export default function Home() {
         <section className="w-full  3xl:min-h-[80rem] max-w-2xl justify-center content-center ">
           <header className="flex flex-col items-center  text-center gap-4 mb-7">
           <h1 
-            className="text-5xl text-white md:text-6xl font-bold transition-all duration-1000 ease-in-out"
-            onMouseEnter={() => setIsHovering(true)}
-            onMouseLeave={() => setIsHovering(false)}
+            className="text-5xl text-white md:text-6xl font-bold transition-all duration-500 ease-in-out"
+            onMouseEnter={() => setIsHovering(true)} 
+            onMouseLeave={() => setIsHovering(false)} 
           >
-            {isHovering ? "Connect with me!" : "Hello, I'm Suhan"}
+            {isHovering ? <span style={{ color: '#C2FFC7' }}>Let&apos;s Connect!</span> : "Hello, I'm Suhan"}
           </h1>
             <pre className="text-lg mx-auto text-center font-mono whitespace-pre-wrap mt-6 wave-animation">
               {`
@@ -53,12 +53,16 @@ export default function Home() {
             actively keeping up with innovative research and advancements that expands my knowledge.
           </p>
 
-          <div className="mx-auto text-center mt-10 justify-center">
+          <div className="mx-auto text-center mt-10 justify-center flex"> 
             <a href="mailto:simon7233@gmail.com">
               <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ffffff] font-bold border-[#ffffff] transition duration-300 hover:text-[#7ED4AD] hover:border-[#7ED4AD]">
                 <FaEnvelope className="mr-2" />{" "}
-                {/* Add margin to the right of the icon */}
                 <h1 className="font-extrabold">Contact</h1>
+              </button>
+            </a>
+            <a href="/resume.pdf" className="ml-6"> <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ffffff] font-bold border-[#ffffff] transition duration-300 hover:text-[#7ED4AD] hover:border-[#7ED4AD]">
+                <FaFilePdf className="mr-2" />{" "}
+                <h1 className="font-extrabold">Résumé</h1>
               </button>
             </a>
           </div>

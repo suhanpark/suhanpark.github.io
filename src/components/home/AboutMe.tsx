@@ -25,7 +25,10 @@ const AboutMe = () => {
           <span className="text-[#B6FFA1] mr-2">|</span> FastAPI
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-[#CB9DF0] mr-2">|</span> AWS &amp; GCP
+          <span className="text-[#CB9DF0] mr-2">|</span> NumPy &amp; Pandas
+        </li>
+        <li className="flex items-center mb-2">
+          <span className="text-[#B6FFA1] mr-2">|</span> AWS &amp; GCP
         </li>
       </ul>
       <p className="text-base font-normal  leading-8 mt-4">
