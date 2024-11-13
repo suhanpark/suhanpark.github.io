@@ -23,7 +23,7 @@ const TypingEffect = ({ words, typingSpeed, blinkSpeed }) => {
         setTimeout(() => {
           setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length); // Cycle through words
           setCurrentText(''); // Reset for the next word
-        }, 1700); // Adjust pause duration (in milliseconds) as needed
+        }, 2000); // Adjust pause duration (in milliseconds) as needed
       } else {
         typingTimeout = setTimeout(typeNextCharacter, typingSpeed);
       }
@@ -48,7 +48,7 @@ const TypingEffect = ({ words, typingSpeed, blinkSpeed }) => {
   return (
     <span className="text-5xl md:text-6xl font-bold"> {/* Apply heading styles */}
       {currentText}
-      {showCursor && <span className="blinking-cursor" style={{ color: '#C2FFC7' }}>|</span>}
+      {showCursor && <span className="blinking-cursor" style={{ color: '#C2FFC7' }}> |</span>}
     </span>
   );
 };
@@ -66,20 +66,43 @@ export default function Home() {
         {/* About Section */}
         <section className="w-full  3xl:min-h-[80rem] max-w-2xl justify-center content-center ">
           <header className="flex flex-col items-center  text-center gap-4 mb-7">
-          <h1 className="text-5xl text-white md:text-6xl font-bold break-words w-full">
+          <h1 className="text-3xl text-white md:text-3xl font-bold break-words w-full">
           Hello, I&apos;m
-          <TypingEffect words={['Suhan','an Engineer', 'a Researcher', 'an AI Zealot', 'a Roboticist', 'a Philantropist', 'an Innovator']} typingSpeed={120} blinkSpeed={500} />
-
           </h1>
-            
-            <h1 className="text-xl  md:text-2xl mt-10 font-bold  ">
+          <h1>
+          <TypingEffect words={['Suhan','an Engineer', 'a Researcher', 'an AI Zealot', 'a Roboticist', 'a Philantropist', 'an Innovator']} typingSpeed={120} blinkSpeed={500} />
+          </h1>
+          <br/>
+            {/* <h1 className="text-xl  md:text-2xl mt-10 font-bold  ">
             Transforming Ideas into Reality.
-            </h1>
+            </h1> */}
           </header>
-          <p className="text-base font-normal text-center leading-8">
-            I am passionate about machine learning, deep learning, computer vision, foundation models, 
-            and autonomous vehicle/robot and perception, actively keeping up with innovative research and advancements that expands my knowledge.
-          </p>
+          <ul className="flex flex-wrap gap-2 md:justify-between">
+            <li className="flex items-center mb-2">
+              <span className="text-[#B6FFA1] mr-2">•</span>Deep Learning
+            </li>
+            <li className="flex items-center mb-2">
+              <span className="text-[#CB9DF0] mr-2">•</span>2D/3D Computer Vision
+            </li>
+            <li className="flex items-center mb-2">
+              <span className="text-[#B6FFA1] mr-2">•</span>Autonomous Vehicle
+            </li>
+            <li className="flex items-center mb-2">
+              <span className="text-[#CB9DF0] mr-2">•</span>VLM &amp; LLM
+            </li>
+            <li className="flex items-center mb-2">
+              <span className="text-[#B6FFA1] mr-2">•</span>Robotics &amp; AI
+            </li>
+            <li className="flex items-center mb-2">
+              <span className="text-[#CB9DF0] mr-2">•</span>Foundation Models
+            </li>
+            <li className="flex items-center mb-2">
+              <span className="text-[#B6FFA1] mr-2">•</span>Machine Learning
+            </li>
+            <li className="flex items-center mb-2">
+              <span className="text-[#CB9DF0] mr-2">•</span>ML Ops
+            </li>
+            </ul>
           <div className="mx-auto text-center mt-10 justify-center flex"> 
             <a href="mailto:simon7233@gmail.com">
               <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ffffff] font-bold border-[#ffffff] transition duration-300 hover:text-[#7ED4AD] hover:border-[#7ED4AD]">
