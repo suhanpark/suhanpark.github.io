@@ -13,7 +13,7 @@ const TypingEffect = ({ words, typingSpeed, blinkSpeed }) => {
 
   useEffect(() => {
     let typingTimeout: NodeJS.Timeout;
-    let blinkInterval: NodeJS.Timeout;
+    const blinkInterval: NodeJS.Timeout;
 
     const typeNextCharacter = () => {
       setCurrentText((prevText) => prevText + words[currentIndex].charAt(prevText.length));
@@ -54,7 +54,6 @@ const TypingEffect = ({ words, typingSpeed, blinkSpeed }) => {
 };
 
 export default function Home() {
-  const [isHovering, setIsHovering] = useState(false);
     return (
     <>
       <meta
