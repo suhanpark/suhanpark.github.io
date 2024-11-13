@@ -8,7 +8,7 @@ const Experience = () => {
       <div className="space-y-0">
         {/* Combined Section for Trainee and Graduate */}
         <div className="flex items-start border-l-4 border-[#83B4FF] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
-          <div className="bg-[#83B4FF] h-2 w-5 md:w-2.5 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#83B4FF] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">BMW Group</h3>
             <p className="text-base leading-6 ">Innovation and Research Intern</p>
@@ -39,7 +39,7 @@ const Experience = () => {
 
         {/* Promotion Visual Indicator */}
         <div className="flex items-start border-l-4 border-[#15B392] pl-4 bg-none  p-4 transition-all duration-300 mt-4">
-          <div className="bg-[#15B392] h-2 w-5 md:w-2 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#15B392] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg "><a href="https://www.egr.msu.edu/~yukong/" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">Action Lab</a> @ MSU</h3>
             <p className="text-base leading-6 ">Research Assistant</p>
@@ -77,7 +77,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="flex items-start border-l-4 border-[#15B392] pl-4 bg-none  p-4 transition-all duration-300 mt-4">
-          <div className="bg-[#15B392] h-2 w-2.5 md:w-2.5 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#15B392] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg "><a href="https://www.cse.msu.edu/~cse231/" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">CSE 231</a> @ MSU</h3>
             <p className="text-base leading-6 ">Teaching Assistant</p>
@@ -118,7 +118,7 @@ const Experience = () => {
         </div>
         {/* Promotion Visual Indicator */}
         <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none  p-4 transition-all duration-300 ">
-          <div className="bg-[#8B5DFF] h-2 w-[0.6rem] md:w-2.5 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#8B5DFF] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">Engineering Society of Detroit</h3>
             <p className="text-base leading-6 ">Math and Computer Science Instructor</p>
@@ -135,7 +135,7 @@ const Experience = () => {
         </div>
         {/* Promotion Visual Indicator */}
         <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none p-4 transition-all duration-300 ">
-          <div className="bg-[#8B5DFF] h-2 w-[1rem] md:w-2.5 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#8B5DFF] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">Tech For Good Inc.</h3>
             <p className="text-base leading-6 ">
@@ -158,7 +158,7 @@ const Experience = () => {
         </div>
         {/* Promotion Visual Indicator */}
         <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none rounded-b-lg p-4 transition-all duration-300 ">
-          <div className="bg-[#8B5DFF] h-2 w-[1.3rem] md:w-2 rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#8B5DFF] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg "><a href="https://1cademy.com" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">1Cademy</a> @ University of Michigan School of Information</h3>
             <p className="text-base leading-6 ">Python Research Intern</p>

@@ -54,7 +54,7 @@ const Navbar = () => {
             aria-label="GitHub"
             className="text-[#f5f5f5] transition duration-300 hover:text-[#C2FFC7]"
           >
-            <FaGithub className="text-xl" />
+            <FaGithub className="text-3xl" />
           </a>
           <a
             href="https://linkedin.com/in/suhanpark01"
@@ -63,7 +63,7 @@ const Navbar = () => {
             aria-label="LinkedIn"
             className="text-[#f5f5f5] transition duration-300 hover:text-[#C2FFC7]"
           >
-            <FaLinkedin className="text-xl" />
+            <FaLinkedin className="text-3xl" />
           </a>
        
           {/* Light/Dark Mode Button */}

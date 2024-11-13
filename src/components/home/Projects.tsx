@@ -9,7 +9,7 @@ const Projects = () => {
       </p>
       <div className="space-y-4">
         <div className="flex items-start border-l-2 border-[#C2FFC7] pl-4">
-          <div className="bg-[#C2FFC7] h-2 w-[1.3rem] md:w-[0.6rem] rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#C2FFC7] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div>
             <h3 className="font-semibold text-lg"><a href="https://www.github.com/suhanpark/muzik.ai" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">muzik.ai</a></h3>
             <p className="text-base leading-6">
@@ -35,7 +35,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#C2FFC7] pl-4">
-          <div className="bg-[#C2FFC7] h-2 w-[0.8rem] rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#C2FFC7] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div>
             <h3 className="font-semibold text-lg"><a href="http://www.capstone.cse.msu.edu/2023-08/projects/urban-science/" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">Synthetic Media</a></h3>
             <p className="text-base leading-6">
@@ -69,7 +69,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#C2FFC7] pl-4">
-          <div className="bg-[#C2FFC7] h-2 w-[0.7rem] rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#C2FFC7] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div>
             <h3 className="font-semibold text-lg">Gun Violence Locator</h3>
             <p className="text-base leading-6">
@@ -92,7 +92,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#C2FFC7] pl-4">
-          <div className="bg-[#C2FFC7] h-2 w-[0.6rem] rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#C2FFC7] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div>
             <h3 className="font-semibold text-lg"><a href="https://www.github.com/suhanpark/The-Lottery-App" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">The Lottery App</a></h3>
             <p className="text-base leading-6">
@@ -113,7 +113,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#C2FFC7] pl-4">
-          <div className="bg-[#C2FFC7] h-2 w-[1.5rem] md:w-[0.5rem] rounded-full mt-1 mr-2"></div>
+          <div className="bg-[#C2FFC7] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div>
             <h3 className="font-semibold text-lg">Small Side Projects</h3>
             <p className="text-base leading-6">

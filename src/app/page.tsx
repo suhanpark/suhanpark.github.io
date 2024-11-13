@@ -48,7 +48,7 @@ export default function Home() {
             </h1>
           </header>
           <p className="text-base font-normal text-center leading-8">
-            I&apos;m a aspiring deep learning researcher and autonomous machine perception engineer.
+            I&apos;m an aspiring deep learning researcher and autonomous machine perception engineer.
             I am passionate about machine learning, deep learning, and computer vision,
             actively keeping up with innovative research and advancements that expands my knowledge.
           </p>
