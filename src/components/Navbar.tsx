@@ -65,9 +65,7 @@ const Navbar = () => {
           >
             <FaLinkedin className="text-xl" />
           </a>
-       
-          {/* Light/Dark Mode Button */}
-          
+     
           {/* <a
             href="https://twitter.com/yourusername"
             target="_blank"
