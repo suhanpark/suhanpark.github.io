@@ -5,3 +5,7 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+module.exports = {
+  basePath: '/suhanpark.github.io',
+  assetPrefix: '/suhanpark.github.io'
+};
