@@ -1,5 +1,3 @@
-// components/Navbar.tsx
-
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -67,6 +65,9 @@ const Navbar = () => {
           >
             <FaLinkedin className="text-xl" />
           </a>
+       
+          {/* Light/Dark Mode Button */}
+          
           {/* <a
             href="https://twitter.com/yourusername"
             target="_blank"

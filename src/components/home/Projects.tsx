@@ -15,10 +15,9 @@ const Projects = () => {
             <p className="text-base leading-6">
             <em className="italic">
                 Python, PyTorch, GCP Compute Engine, GCP Storage, ffmpeg, mido, Pandas
-            </em>
-                <br />
-                <br />
-              <li>
+            </em> 
+            </p>
+            <li>
                 Developed ML pipeline of preprocessing audio data and training music generation transformer.
               </li>
               <li>
@@ -32,8 +31,7 @@ const Projects = () => {
               </li>
               <li>
                 Currently under construction.
-              </li>             
-            </p>
+              </li>       
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#C2FFC7] pl-4">
@@ -44,8 +42,7 @@ const Projects = () => {
             <em className="italic">
                 Python, FastAPI, GPT-3.5 Turbo API, D-ID API, Firebase Realtime Database, Firebase Host Server, Angular JS, Docker
             </em>
-                <br />
-                <br />
+            </p>
               <li>
                 Developed an API module to control module-database connection for smoother data transfer and interaction.
               </li>
@@ -69,7 +66,6 @@ const Projects = () => {
               <li>
               Led the team by organized meetings and repositories of the project, assigning tasks, and progress checks.
               </li>
-            </p>
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#C2FFC7] pl-4">
@@ -80,8 +76,7 @@ const Projects = () => {
             <em className="italic">
                 Android Studio, Java, Firebase Realtime Database, Firebase Host Server, Python, Docker
             </em>
-                <br />
-                <br />
+            </p>
               <li>
                 Developed an app for informing the gun violence danger level in for current location.
               </li>
@@ -94,7 +89,6 @@ const Projects = () => {
               <li>
                 Integreted search functionality for users to find dnager level of the prompted location.
               </li>
-            </p>
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#C2FFC7] pl-4">
@@ -106,8 +100,8 @@ const Projects = () => {
               Python, FastAPI, Docker, Twilio API, Firebase Realtime Database, Firebase Host Server
             </em>
               <br/>
-              <br/>
-              <li>
+            </p>
+            <li>
                 Developed an app to find the most probable number combination for Mega Millions Lottery.
               </li>
               <li>
@@ -116,7 +110,6 @@ const Projects = () => {
               <li>
                 It sends the found number combinations as a SMS text message.
               </li>
-            </p>
           </div>
         </div>
         <div className="flex items-start border-l-2 border-[#C2FFC7] pl-4">
@@ -127,8 +120,7 @@ const Projects = () => {
             <em className="italic">
               Python, Javascript, React, PyTorch, OpenCV
             </em>
-              <br/>
-              <br/>
+            </p>
               <li>
               <a href="https://www.github.com/suhanpark/leetcode" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">leetcode</a>
               </li>
@@ -144,7 +136,6 @@ const Projects = () => {
               <li>
               <a href="https://www.github.com/suhanpark/OSVC" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">Overspeeding Vehicle Tracker</a>
               </li>
-            </p>
           </div>
         </div>
       </div>
