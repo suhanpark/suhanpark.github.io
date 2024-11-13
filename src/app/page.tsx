@@ -60,7 +60,7 @@ export default function Home() {
                 <h1 className="font-extrabold">Contact</h1>
               </button>
             </a>
-            <a href="src/app/Resume.pdf" className="ml-6"> <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ffffff] font-bold border-[#ffffff] transition duration-300 hover:text-[#7ED4AD] hover:border-[#7ED4AD]">
+            <a href="https://drive.google.com/file/d/1ULykEzOef8IUKPg2FFX45RrNa0m0u21H/view?usp=sharing" className="ml-6"> <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ffffff] font-bold border-[#ffffff] transition duration-300 hover:text-[#7ED4AD] hover:border-[#7ED4AD]">
                 <FaFilePdf className="mr-2" />{" "}
                 <h1 className="font-extrabold">Résumé</h1>
               </button>
