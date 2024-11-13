@@ -55,7 +55,7 @@ const Experience = () => {
               Prepared and preprocessed various datasets using CV frameworks.
               </li>
               <li>
-              Developed EDL model improved vanilla CNN and ViT backbones to be capable of
+              <a href="https://drive.google.com/file/d/1BYCYw6028C8mwXbsDUF7OaPSurw7ts7L/view" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">Developed EDL model</a> improved vanilla CNN and ViT backbones to be capable of
               </li>
               <li>
                 <ul className="list-disc list-inside ml-6">
@@ -108,11 +108,12 @@ const Experience = () => {
         <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none  p-4 transition-all duration-300 ">
           <div className="bg-[#8B5DFF] h-2 w-[0.6rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg ">DEPOT</h3>
-            <p className="text-base leading-6 ">Bartender @ DEPOT</p>
-            <p className="text-sm text-gray-300">2023 - 2024</p>
+            <h3 className="font-semibold text-lg ">Engineering Society of Detroit</h3>
+            <p className="text-base leading-6 ">Math and Computer Science Instructor</p>
+            <p className="text-sm text-gray-300">Jun. 2022 - Aug. 2022</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
-              <li>Bartended at huge events & festivals.</li>
+              <li>Developed &amp; taught curriculums in Algebra I/II and Computer Science/Drone Mechanics.</li>
+              <li>Created educational materials and activities based on Michigan Education Standards.</li>
             </ul>
           </div>
         </div>
@@ -120,13 +121,18 @@ const Experience = () => {
         <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none p-4 transition-all duration-300 ">
           <div className="bg-[#8B5DFF] h-2 w-[0.8rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg ">McDonald&apos;s</h3>
+            <h3 className="font-semibold text-lg ">Tech For Good Inc.</h3>
             <p className="text-base leading-6 ">
-              Team Member @ McDonald&apos;s
+              Software Engineer Intern, Project Lead
             </p>
-            <p className="text-sm text-gray-300">2017 - 2019</p>
+            <p className="text-sm text-gray-300">Jun. 2021 - Aug. 2021</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
-              <li>Served customers in a fast-paced environment.</li>
+              <li>Worked on weapon detection alerting system.</li>
+              <li>Developed database update automation module with Azure SQL database.</li>
+              <li>Developed an authentication module for the authorities and building managements.</li>
+              <li>Managed the entire weapon detection alerting AI project team of 30 members.</li>
+              <li>Organized meetings and repositories of the project.</li>
+              <li>All teams have met their benchmarks and achieved the final project goals.</li>
             </ul>
           </div>
         </div>
@@ -134,13 +140,12 @@ const Experience = () => {
         <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none rounded-b-lg p-4 transition-all duration-300 ">
           <div className="bg-[#8B5DFF] h-2 w-[1.3rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg ">Golf Club</h3>
-            <p className="text-base leading-6 ">Waitress @ Golf Club</p>
-            <p className="text-sm text-gray-300">2016 - 2017</p>
+            <h3 className="font-semibold text-lg "><a href="https://1cademy.com" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">1Cademy</a> @ University of Michigan School of Information</h3>
+            <p className="text-base leading-6 ">Python Research Intern</p>
+            <p className="text-sm text-gray-300">May. 2021 - Aug. 2021</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
               <li>
-                Providing excellent customer service while providing food,
-                beverages and cleaning.
+              Collaborated to create a web of Python nodes.
               </li>
             </ul>
           </div>
