@@ -9,7 +9,7 @@ const Navbar = () => {
         <ul className="flex space-x-8 hidden md:flex">
           <li>
             <Link
-              href="#"
+              href="https://suhanpark.github.io/"
               className="relative inline-block text-[#C2FFC7] text-2xl transition duration-300 group hover:text-[#C2FFC7] text-2xl"
             >
               <p className="text-[1.3rem] font-bold mb-2">Suhan</p>
