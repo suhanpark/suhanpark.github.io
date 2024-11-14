@@ -6,7 +6,11 @@ import Experience from "@/components/home/Experience";
 import { FaEnvelope, FaFilePdf } from "react-icons/fa";
 import React, { useState, useEffect } from 'react';
 
-const TypingEffect = ({ words, typingSpeed, blinkSpeed }) => {
+const TypingEffect: React.FC<{ 
+  words: string[]; 
+  typingSpeed: number; 
+  blinkSpeed: number; 
+}> = ({ words, typingSpeed, blinkSpeed }) => {
   const [currentText, setCurrentText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
