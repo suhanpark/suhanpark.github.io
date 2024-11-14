@@ -10,25 +10,48 @@ const AboutMe = () => {
       </p>
       <ul className="flex flex-wrap gap-2 md:justify-between">
         <li className="flex items-center mb-2">
-          <span className="text-[#B6FFA1] mr-2">|</span> Python &amp; C++
+          <span className="text-[#B6FFA1] mr-2">|</span> Python
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-[#CB9DF0] mr-2">|</span> PyTorch &amp; PyTorch3D
+          <span className="text-[#CB9DF0] mr-2">|</span> PyTorch
         </li>
         <li className="flex items-center mb-2">
           <span className="text-[#B6FFA1] mr-2">|</span> CUDA
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-[#CB9DF0] mr-2">|</span> OpenCV &amp; Open3D
+          <span className="text-[#CB9DF0] mr-2">|</span> OpenCV
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-[#B6FFA1] mr-2">|</span> NumPy &amp; Pandas
+          <span className="text-[#B6FFA1] mr-2">|</span> NumPy
         </li>
         <li className="flex items-center mb-2">
           <span className="text-[#CB9DF0] mr-2">|</span> FastAPI
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-[#B6FFA1] mr-2">|</span> AWS &amp; GCP
+          <span className="text-[#B6FFA1] mr-2">|</span> AWS
+        </li>
+        </ul>
+      <ul className="flex flex-wrap gap-2 md:justify-between">
+        <li className="flex items-center mb-2">
+          <span className="text-[#CB9DF0] mr-2">|</span> C/C++
+        </li>
+        <li className="flex items-center mb-2">
+          <span className="text-[#B6FFA1] mr-2">|</span> PyTorch3D
+        </li>
+        <li className="flex items-center mb-2">
+          <span className="text-[#CB9DF0] mr-2">|</span> Linux
+        </li>
+        <li className="flex items-center mb-2">
+          <span className="text-[#B6FFA1] mr-2">|</span> Open3D
+        </li>
+        <li className="flex items-center mb-2">
+          <span className="text-[#CB9DF0] mr-2">|</span> Pandas
+        </li>
+        <li className="flex items-center mb-2">
+          <span className="text-[#B6FFA1] mr-2">|</span> Matplotlib
+        </li>
+        <li className="flex items-center mb-2">
+          <span className="text-[#CB9DF0] mr-2">|</span> GCP
         </li>
       </ul>
       <p className="text-base font-normal  leading-8 mt-4">
