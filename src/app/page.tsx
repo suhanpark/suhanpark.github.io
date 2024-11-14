@@ -4,7 +4,7 @@ import AboutMe from "@/components/home/AboutMe";
 import Projects from "@/components/home/Projects";
 import Experience from "@/components/home/Experience";
 import { FaEnvelope, FaFilePdf } from "react-icons/fa";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const TypingEffect: React.FC<{ 
   words: string[]; 
@@ -15,45 +15,43 @@ const TypingEffect: React.FC<{
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
 
+  // Use refs to manage intervals
+  const typingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const blinkIntervalRef = useRef<NodeJS.Timeout | null>(null);
+
   useEffect(() => {
-    let typingTimeout: NodeJS.Timeout;
-    let blinkInterval: NodeJS.Timeout = setInterval(() => {
-      setShowCursor((prevShowCursor) => !prevShowCursor);
-    }, blinkSpeed);
-    
-
     const typeNextCharacter = () => {
-      setCurrentText((prevText) => prevText + words[currentIndex].charAt(prevText.length));
+      setCurrentText((prevText) => {
+        const nextChar = words[currentIndex].charAt(prevText.length);
+        return prevText + nextChar;
+      });
 
+      // Move to next word when done typing
       if (currentText.length === words[currentIndex].length) {
-        // Pause briefly before moving to the next word
         setTimeout(() => {
-          setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length); // Cycle through words
-          setCurrentText(''); // Reset for the next word
-        }, 2000); // Adjust pause duration (in milliseconds) as needed
+          setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length);
+          setCurrentText('');
+        }, 2000); // Adjust pause duration here
       } else {
-        typingTimeout = setTimeout(typeNextCharacter, typingSpeed);
+        typingTimeoutRef.current = setTimeout(typeNextCharacter, typingSpeed);
       }
     };
 
-    if (currentIndex < words.length) {
-      typingTimeout = setTimeout(typeNextCharacter, typingSpeed);
-    }
+    typingTimeoutRef.current = setTimeout(typeNextCharacter, typingSpeed);
 
     // Cursor blinking effect
-    blinkInterval = setInterval(() => {
+    blinkIntervalRef.current = setInterval(() => {
       setShowCursor((prevShowCursor) => !prevShowCursor);
     }, blinkSpeed);
 
-    // Cleanup
     return () => {
-      clearTimeout(typingTimeout);
-      clearInterval(blinkInterval);
+      if (typingTimeoutRef.current) clearTimeout(typingTimeoutRef.current);
+      if (blinkIntervalRef.current) clearInterval(blinkIntervalRef.current);
     };
-  }, [currentText, currentIndex, typingSpeed, blinkSpeed, words]);
+  }, [currentIndex, typingSpeed, blinkSpeed, words, currentText.length]);
 
   return (
-    <span className="text-5xl md:text-6xl font-bold"> {/* Apply heading styles */}
+    <span className="text-5xl md:text-6xl font-bold">
       {currentText}
       {showCursor && <span className="blinking-cursor" style={{ color: '#C2FFC7' }}> |</span>}
     </span>
