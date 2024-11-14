@@ -17,7 +17,7 @@ const TypingEffect: React.FC<{
 
   useEffect(() => {
     let typingTimeout: NodeJS.Timeout;
-    let blinkInterval: 50;
+    let blinkInterval: NodeJS.Timeout;
 
 
     const typeNextCharacter = () => {
