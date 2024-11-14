@@ -10,22 +10,22 @@ const AboutMe = () => {
       </p>
       <ul className="flex flex-wrap gap-2 md:justify-between">
         <li className="flex items-center mb-2">
-          <span className="text-[#B6FFA1] mr-2">|</span> Python
+          <span className="text-[#B6FFA1] mr-2">|</span> Python &amp; C++
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-[#CB9DF0] mr-2">|</span> PyTorch
+          <span className="text-[#CB9DF0] mr-2">|</span> PyTorch &amp; PyTorch3D
         </li>
         <li className="flex items-center mb-2">
           <span className="text-[#B6FFA1] mr-2">|</span> CUDA
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-[#CB9DF0] mr-2">|</span> OpenCV
+          <span className="text-[#CB9DF0] mr-2">|</span> OpenCV &amp; Open3D
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-[#B6FFA1] mr-2">|</span> FastAPI
+          <span className="text-[#B6FFA1] mr-2">|</span> NumPy &amp; Pandas
         </li>
         <li className="flex items-center mb-2">
-          <span className="text-[#CB9DF0] mr-2">|</span> NumPy &amp; Pandas
+          <span className="text-[#CB9DF0] mr-2">|</span> FastAPI
         </li>
         <li className="flex items-center mb-2">
           <span className="text-[#B6FFA1] mr-2">|</span> AWS &amp; GCP
