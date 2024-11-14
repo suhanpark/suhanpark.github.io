@@ -12,7 +12,7 @@ const Experience = () => {
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">BMW Group</h3>
             <p className="text-base leading-6 ">Innovation and Research Intern</p>
-            <p className="text-sm text-gray-300">Jan. 2024 - Dec.2024</p>
+            <p className="text-sm text-gray-300">Jan. 2024 - Apr.2024</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
             <em className="italic">
               Python, PyTorch, CUDA, AWS EC2, AWS S3, OpenCV, ONNX, FastAPI, Pandas, Matplotlib
