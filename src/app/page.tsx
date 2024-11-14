@@ -17,9 +17,7 @@ const TypingEffect: React.FC<{
 
   useEffect(() => {
     let typingTimeout: NodeJS.Timeout;
-    const blinkInterval: NodeJS.Timeout = setInterval(() => { // Corrected type here
-      setShowCursor((prevShowCursor) => !prevShowCursor);
-    }, blinkSpeed);
+    let blinkInterval: NodeJS.Timeout;
 
     const typeNextCharacter = () => {
       setCurrentText((prevText) => prevText + words[currentIndex].charAt(prevText.length));
