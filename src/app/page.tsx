@@ -17,7 +17,7 @@ const TypingEffect: React.FC<{
 
   useEffect(() => {
     let typingTimeout: NodeJS.Timeout;
-    let blinkInterval: NodeJS.Timeout = setInterval(() => { // Corrected type here
+    const blinkInterval: NodeJS.Timeout = setInterval(() => { // Corrected type here
       setShowCursor((prevShowCursor) => !prevShowCursor);
     }, blinkSpeed);
 
