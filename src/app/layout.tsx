@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Suhan&apos;s Website",
     description:
       "Discover Suhan&apos;s projects in software engineering, specializing in Deep Learning and Computer Vision.",
-    url: "https://www.suhanpark.com",
+    url: "https://suhanpark.github.io",
     siteName: "Suhan&apos;s Website",
 
     locale: "en_US",
