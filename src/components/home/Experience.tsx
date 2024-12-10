@@ -63,7 +63,7 @@ const Experience = () => {
               Prepared and preprocessed various datasets using CV frameworks.
               </li>
               <li>
-              <a href="https://drive.google.com/file/d/1BYCYw6028C8mwXbsDUF7OaPSurw7ts7L/view" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">Developed EDL model</a> improved vanilla CNN and ViT backbones to be capable of
+              <a href="https://drive.google.com/drive/folders/1-0rW1a63OZBC0yHz0n3FLmOfYewlxG08?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">Developed EDL model</a> improved vanilla CNN and ViT backbones to be capable of
               </li>
               <li>
                 <ul className="list-disc list-inside ml-6">
