@@ -166,7 +166,7 @@ export default function Home() {
       </section> */}
 
         <footer className="mt-20 text-sm text-gray-400">
-          © Inpired by Gabi. Made by Suhan. All rights reserved 2024.
+          © Inpired by Gabi. Made by Suhan. All rights reserved.
         </footer>
       </div>
     </>
