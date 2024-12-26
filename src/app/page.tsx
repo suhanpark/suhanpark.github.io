@@ -11,7 +11,7 @@ const TypingEffect: React.FC<{
   typingSpeed: number; 
   blinkSpeed: number; 
 }> = ({ words, typingSpeed, blinkSpeed }) => {
-  const [currentText, setCurrentText] = useState('');
+  const [currentText, setCurrentText] = useState(' ');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
 
@@ -30,7 +30,7 @@ const TypingEffect: React.FC<{
       if (currentText.length === words[currentIndex].length) {
         setTimeout(() => {
           setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length);
-          setCurrentText('');
+          setCurrentText(" ");
         }, 2000); // Adjust pause duration here
       } else {
         typingTimeoutRef.current = setTimeout(typeNextCharacter, typingSpeed);
@@ -75,7 +75,7 @@ export default function Home() {
           Hello, I&apos;m
           </h1>
           <h1>
-          <TypingEffect words={['Suhan','an Engineer', 'a Researcher', 'an AI Zealot', 'a Roboticist', 'a Philanthropist', 'an Innovator']} typingSpeed={130} blinkSpeed={500} />
+          <TypingEffect words={[' Suhan',' an Engineer', ' a Researcher', ' an AI Zealot', ' a Roboticist', ' a Philanthropist', ' an Innovator']} typingSpeed={130} blinkSpeed={500} />
           </h1>
           <br/>
             {/* <h1 className="text-xl  md:text-2xl mt-10 font-bold  ">
@@ -166,7 +166,7 @@ export default function Home() {
       </section> */}
 
         <footer className="mt-20 text-sm text-gray-400">
-          © 2024 Modified by Suhan. All rights reserved.
+          © Inpired by Gabi. Made by Suhan. All rights reserved 2024.
         </footer>
       </div>
     </>

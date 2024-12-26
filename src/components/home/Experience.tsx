@@ -1,16 +1,48 @@
+import Image from "next/image";
+import TorcLogo from "@/app/torc.png";
+import BMWLogo from "@/app/bmw.png";
+import MSULogo from "@/app/msu.png";
+import TFGLogo from "@/app/tfg.png";
+import UMLogo from "@/app/um.png";
+import ESDLogo from "@/app/esd.jpg";
+
+
 const Experience = () => {
   return (
     <section className="w-full max-w-2xl mt-40">
       <h2 className="text-3xl font-semibold mb-4 text-white">Experience</h2>
       <p className="text-base font-normal leading-8 mb-6">
-        I am currently seeking for ML/DL/CV Software/Research Engineer positions.
+        I am currently working on perception and deep learning in autonomous vehicles.
       </p>
       <div className="space-y-0">
+      <div className="flex items-start border-l-4 border-[#F72C5B] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
+          <div className="bg-[#F72C5B] h-2 w-2.5 rounded-full mt-1 mr-2"></div>
+          <div className="flex-grow">
+          <h3 className="font-semibold text-lg flex items-center">
+              <span>Torc Robotics </span> {/* Add space after text */}
+              <Image src={TorcLogo} alt="Torc Robotics Logo" width={24} height={24} className="ml-2" />  {/* Add margin-left */}
+            </h3>
+            <p className="text-base leading-6 ">Machine Learning Engineer</p>
+            <p className="text-sm text-gray-300">Jan. 2025 - Present</p>
+            <ul className="list-disc list-inside mt-2 text-gray-300">
+            <em className="italic">
+              Python, PyTorch, ROS2, LiDAR, CUDA, AWS EC2, OpenCV, ONNX, FastAPI, Pandas, Matplotlib
+            </em>
+            <br/>
+              <li>
+              2D and 3D object detection and segementation for perception using LiDAR and camera data in autonomous vehicles.
+              </li>
+            </ul>
+          </div>
+        </div>
         {/* Combined Section for Trainee and Graduate */}
-        <div className="flex items-start border-l-4 border-[#83B4FF] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
+        <div className="flex items-start border-l-4 border-[#83B4FF] pl-4  p-4 transition-all duration-300">
           <div className="bg-[#83B4FF] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg ">BMW Group</h3>
+          <h3 className="font-semibold text-lg flex items-center">
+              <span>BMW Group </span> {/* Add space after text */}
+              <Image src={BMWLogo} alt="BMW Logo" width={24} height={24} className="ml-2" />  {/* Add margin-left */}
+            </h3>
             <p className="text-base leading-6 ">Innovation and Research Intern</p>
             <p className="text-sm text-gray-300">Jan. 2024 - Apr.2024</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
@@ -41,7 +73,11 @@ const Experience = () => {
         <div className="flex items-start border-l-4 border-[#15B392] pl-4 bg-none  p-4 transition-all duration-300 mt-4">
           <div className="bg-[#15B392] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg "><a href="https://www.egr.msu.edu/~yukong/" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">Action Lab</a> @ MSU</h3>
+          <h3 className="font-semibold text-lg flex items-center">
+              <span><a href="https://www.egr.msu.edu/~yukong/" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">Action Lab</a> @ MSU </span> {/* Add space after text */}
+              <Image src={MSULogo} alt="MSU Logo" width={24} height={24} className="ml-2" />  {/* Add margin-left */}
+            </h3>
+            <h3 className="font-semibold text-lg "></h3>
             <p className="text-base leading-6 ">Research Assistant</p>
             <p className="text-sm text-gray-300">Jan. 2023 - Dec. 2023</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
@@ -79,7 +115,11 @@ const Experience = () => {
         <div className="flex items-start border-l-4 border-[#15B392] pl-4 bg-none  p-4 transition-all duration-300 mt-4">
           <div className="bg-[#15B392] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg "><a href="https://www.cse.msu.edu/~cse231/" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">CSE 231</a> @ MSU</h3>
+          <h3 className="font-semibold text-lg flex items-center">
+              <span><a href="https://www.cse.msu.edu/~cse231/" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">CSE 231</a> @ MSU</span> {/* Add space after text */}
+              <Image src={MSULogo} alt="MSU Logo" width={24} height={24} className="ml-2" />  {/* Add margin-left */}
+            </h3>
+            <h3 className="font-semibold text-lg "></h3>
             <p className="text-base leading-6 ">Teaching Assistant</p>
             <p className="text-sm text-gray-300">Aug. 2022 - Dec. 2023</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
@@ -117,10 +157,13 @@ const Experience = () => {
           </div>
         </div>
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none  p-4 transition-all duration-300 ">
-          <div className="bg-[#8B5DFF] h-2 w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#1230AE] pl-4 bg-none  p-4 transition-all duration-300 ">
+          <div className="bg-[#1230AE] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg ">Engineering Society of Detroit</h3>
+          <h3 className="font-semibold text-lg flex items-center">
+              <span>Engineering Society of Detroit</span> {/* Add space after text */}
+              <Image src={ESDLogo} alt="ESD Logo" width={24} height={24} className="ml-2" />  {/* Add margin-left */}
+            </h3>
             <p className="text-base leading-6 ">Math and Computer Science Instructor</p>
             <p className="text-sm text-gray-300">Jun. 2022 - Aug. 2022</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
@@ -137,7 +180,11 @@ const Experience = () => {
         <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none p-4 transition-all duration-300 ">
           <div className="bg-[#8B5DFF] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg ">Tech For Good Inc.</h3>
+            
+          <h3 className="font-semibold text-lg flex items-center">
+              <span>Tech For Good </span> {/* Add space after text */}
+              <Image src={TFGLogo} alt="TFG Logo" width={24} height={24} className="ml-2" />  {/* Add margin-left */}
+            </h3>
             <p className="text-base leading-6 ">
               Software Engineer Intern, Project Lead
             </p>
@@ -157,10 +204,14 @@ const Experience = () => {
           </div>
         </div>
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#8B5DFF] pl-4 bg-none rounded-b-lg p-4 transition-all duration-300 ">
-          <div className="bg-[#8B5DFF] h-2 w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#FFF100] pl-4 bg-none rounded-b-lg p-4 transition-all duration-300 ">
+          <div className="bg-[#FFF100] h-2 w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
-            <h3 className="font-semibold text-lg "><a href="https://1cademy.com" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">1Cademy</a> @ University of Michigan School of Information</h3>
+          <h3 className="font-semibold text-lg flex items-center">
+              <span><a href="https://1cademy.com" target="_blank" rel="noopener noreferrer" className="underline italic hover:text-[#15B392]">1Cademy</a> @ University of Michigan School of Information</span> {/* Add space after text */}
+              <Image src={UMLogo} alt="UM Logo" width={24} height={24} className="ml-2" />  {/* Add margin-left */}
+            </h3>
+            <h3 className="font-semibold text-lg "></h3>
             <p className="text-base leading-6 ">Python Research Intern</p>
             <p className="text-sm text-gray-300">May. 2021 - Aug. 2021</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
