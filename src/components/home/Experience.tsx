@@ -15,13 +15,13 @@ const Experience = () => {
         I am currently working on perception and deep learning in autonomous vehicles.
       </p>
       <div className="space-y-0">
-      <div className="flex items-start border-l-4 border-[#F72C5B] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
+      {/* <div className="flex items-start border-l-4 border-[#F72C5B] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
           <div className="bg-[#F72C5B] h-2 w-2.5 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
           <h3 className="font-semibold text-lg flex items-center">
               <span>Torc Robotics </span> {/* Add space after text */}
-              <Image src={TorcLogo} alt="Torc Robotics Logo" width={24} height={24} className="ml-2" />  {/* Add margin-left */}
-            </h3>
+              {/* <Image src={TorcLogo} alt="Torc Robotics Logo" width={24} height={24} className="ml-2" />  {/* Add margin-left */}
+            {/* </h3>
             <p className="text-base leading-6 ">Machine Learning Engineer</p>
             <p className="text-sm text-gray-300">Jan. 2025 - Present</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
@@ -32,9 +32,9 @@ const Experience = () => {
               <li>
               2D and 3D object detection and segementation for perception using LiDAR and camera data in autonomous vehicles.
               </li>
-            </ul>
-          </div>
-        </div>
+            </ul> */}
+          {/* </div> */}
+        {/* </div> */}
         {/* Combined Section for Trainee and Graduate */}
         <div className="flex items-start border-l-4 border-[#83B4FF] pl-4  p-4 transition-all duration-300">
           <div className="bg-[#83B4FF] h-2 w-2 rounded-full mt-1 mr-2"></div>
