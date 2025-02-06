@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TorcLogo from "@/app/torc.png";
+import SDLogo from "@/app/sd.png";
 import BMWLogo from "@/app/bmw.png";
 import MSULogo from "@/app/msu.png";
 import TFGLogo from "@/app/tfg.png";
@@ -12,29 +12,29 @@ const Experience = () => {
     <section className="w-full max-w-2xl mt-40">
       <h2 className="text-3xl font-semibold mb-4 text-white">Experience</h2>
       <p className="text-base font-normal leading-8 mb-6">
-        I am currently working on perception and deep learning in autonomous vehicles.
+        I am currently working on revolutionizing US Manufcturing Industry.
       </p>
       <div className="space-y-0">
-      {/* <div className="flex items-start border-l-4 border-[#F72C5B] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
+      <div className="flex items-start border-l-4 border-[#F72C5B] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
           <div className="bg-[#F72C5B] h-2 w-2.5 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
           <h3 className="font-semibold text-lg flex items-center">
-              <span>Torc Robotics </span> {/* Add space after text */}
-              {/* <Image src={TorcLogo} alt="Torc Robotics Logo" width={24} height={24} className="ml-2" />  {/* Add margin-left */}
-            {/* </h3>
-            <p className="text-base leading-6 ">Machine Learning Engineer</p>
+              <span>Standard Data </span> {/* Add space after text */}
+              <Image src={SDLogo} alt="Standard Data Logo" width={24} height={24} className="ml-2" /> 
+            </h3>
+            <p className="text-base leading-6 ">Founding Engineer</p>
             <p className="text-sm text-gray-300">Jan. 2025 - Present</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
             <em className="italic">
-              Python, PyTorch, ROS2, LiDAR, CUDA, AWS EC2, OpenCV, ONNX, FastAPI, Pandas, Matplotlib
+            Python, PyTorch, GCP, CUDA, FastAPI, Kubernetes, Kubeflow, etc.
             </em>
             <br/>
               <li>
-              2D and 3D object detection and segementation for perception using LiDAR and camera data in autonomous vehicles.
+              Utilizing ML to systemize, optimize, and change the US manufacturing industry.
               </li>
-            </ul> */}
-          {/* </div> */}
-        {/* </div> */}
+            </ul>
+          </div>
+        </div>
         {/* Combined Section for Trainee and Graduate */}
         <div className="flex items-start border-l-4 border-[#83B4FF] pl-4  p-4 transition-all duration-300">
           <div className="bg-[#83B4FF] h-2 w-2 rounded-full mt-1 mr-2"></div>

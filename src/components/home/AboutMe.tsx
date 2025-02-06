@@ -3,8 +3,7 @@ const AboutMe = () => {
     <section className="w-full max-w-2xl ">
       <h2 className="text-3xl text-white font-semibold mb-4">About Me</h2>
       <p className="text-base font-normal  leading-8 mb-10">
-        {/* I am currently a Machine Learning Engineer working on perception and deep learning in autonomous vehicles at Torc Robotics. */}
-        I am currently seeking for Computer Vision Engineer or Machine Learning Engineer positions.
+        I am currently a Founding Engineer at Standard Data, where I work on machine learning projects.
       </p>
       <ul className="flex flex-wrap gap-2 md:justify-between">
         <li className="flex items-center mb-2">
