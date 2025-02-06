@@ -3,8 +3,7 @@ import Navbar from "@/components/Navbar";
 import AboutMe from "@/components/home/AboutMe";
 import Projects from "@/components/home/Projects";
 import Experience from "@/components/home/Experience";
-import { FaEnvelope, FaFilePdf } from "react-icons/fa";
-import { IoCalendarNumberOutline } from "react-icons/io5";
+import { FaEnvelope, FaFilePdf, FaRegCalendarAlt } from "react-icons/fa";
 import React, { useState, useEffect, useRef } from 'react';
 
 const TypingEffect: React.FC<{ 
@@ -122,7 +121,7 @@ export default function Home() {
               </button>
             </a>
             <a href="https://cal.com/suhan-park/30min" className="ml-6"> <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ffffff] font-bold border-[#ffffff] transition duration-300 hover:text-[#7ED4AD] hover:border-[#7ED4AD]">
-                <IoCalendarNumberOutline className="mr-2" />{" "}
+                <FaRegCalendarAlt className="mr-2" />{" "}
                 <h1 className="font-extrabold">Meeting</h1>
               </button>
             </a>
