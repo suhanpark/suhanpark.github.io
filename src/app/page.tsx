@@ -109,7 +109,7 @@ export default function Home() {
             </li>
             </ul>
           <div className="mx-auto text-center mt-10 justify-center flex"> 
-            <a href="mailto:simon7233@gmail.com">
+            <a href="mailto:suhan.park@standarddata.com">
               <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ffffff] font-bold border-[#ffffff] transition duration-300 hover:text-[#7ED4AD] hover:border-[#7ED4AD]">
                 <FaEnvelope className="mr-2" />{" "}
                 <h1 className="font-extrabold">Contact</h1>
