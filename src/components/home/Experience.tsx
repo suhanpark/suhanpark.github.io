@@ -12,7 +12,7 @@ const Experience = () => {
     <section className="w-full max-w-2xl mt-40">
       <h2 className="text-3xl font-semibold mb-4 text-white">Experience</h2>
       <p className="text-base font-normal leading-8 mb-6">
-        I am currently working on revolutionizing US Manufcturing Industry.
+        I am currently working on building my own startup.
       </p>
       <div className="space-y-0">
       <div className="flex items-start border-l-4 border-[#F72C5B] pl-4 bg-none rounded-t-lg p-4 transition-all duration-300">
@@ -22,15 +22,27 @@ const Experience = () => {
               <span>Standard Data </span> {/* Add space after text */}
               <Image src={SDLogo} alt="Standard Data Logo" width={24} height={24} className="ml-2" /> 
             </h3>
-            <p className="text-base leading-6 ">Founding Engineer</p>
-            <p className="text-sm text-gray-300">Jan. 2025 - Present</p>
+            <p className="text-base leading-6 ">Founding Machine Learning Engineer</p>
+            <p className="text-sm text-gray-300">Jan. 2025 - Apr. 2025</p>
             <ul className="list-disc list-inside mt-2 text-gray-300">
             <em className="italic">
             Python, PyTorch, GCP, CUDA, FastAPI, Kubernetes, Kubeflow, etc.
             </em>
             <br/>
               <li>
-              Utilizing ML to systemize, optimize, and change the US manufacturing industry.
+              Built and deployed backend modules for database.
+              </li>
+              <li>
+              Developed semantic search and embedding systems. 
+              </li>
+              <li>
+              Designed and implemented an automated candidate evaluation pipeline using LLMs.
+              </li>
+              <li>
+              Led system architecture planning and deployed the end-to-end backend infrastructure for the initial product launch.
+              </li>
+              <li>
+              Contributed to team structuring, operational workflows, market research, and strategic planning alongside the founders.
               </li>
             </ul>
           </div>
